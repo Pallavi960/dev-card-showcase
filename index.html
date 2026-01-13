@@ -648,11 +648,11 @@
         <div class="footer-social">
             <p>Connect with us</p>
             <div class="social-links">
-                <a href="https://www.instagram.com/elite_coders_/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                 <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/in/jayantaghosh2004/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/Jayanta2004/dev-card-showcase" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                <a href="https://x.com/elitecoders_" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
         </div>
         <p>© 2026 Community Hall of Fame</p>
@@ -669,6 +669,91 @@
     </button>
 
     <script>
+
+ /* ---------- VIEW TOGGLE (Grid/List) ---------- */
+const viewToggleBtn = document.getElementById("viewToggle");
+const cardContainer = document.querySelector(".card-container");
+
+// Initialize view mode from localStorage or default to grid
+let isListView = localStorage.getItem("viewMode") === "list";
+
+// Update button icon based on current view
+function updateViewButton() {
+    const icon = viewToggleBtn.querySelector("i");
+    if (isListView) {
+        icon.classList.remove("fa-list");
+        icon.classList.add("fa-th-large");
+        viewToggleBtn.setAttribute("aria-label", "Switch to Grid View");
+    } else {
+        icon.classList.remove("fa-th-large");
+        icon.classList.add("fa-list");
+        viewToggleBtn.setAttribute("aria-label", "Switch to List View");
+    }
+}
+
+// Toggle between grid and list view
+function toggleView() {
+    isListView = !isListView;
+    
+    if (isListView) {
+        // Switch to list view
+        cardContainer.classList.add("list-view");
+        localStorage.setItem("viewMode", "list");
+    } else {
+        // Switch to grid view
+        cardContainer.classList.remove("list-view");
+        localStorage.setItem("viewMode", "grid");
+    }
+    
+    updateViewButton();
+    
+    // Add animation effect
+    cardContainer.style.opacity = "0.7";
+    setTimeout(() => {
+        cardContainer.style.opacity = "1";
+    }, 200);
+}
+
+// Initialize on page load
+document.addEventListener("DOMContentLoaded", () => {
+    // Set initial view based on saved preference
+    if (isListView) {
+        cardContainer.classList.add("list-view");
+    } else {
+        cardContainer.classList.remove("list-view");
+    }
+    
+    updateViewButton();
+    
+    // Add event listener to toggle button
+    viewToggleBtn.addEventListener("click", toggleView);
+    
+    // Add keyboard support
+    viewToggleBtn.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggleView();
+        }
+    });
+    
+    // Add hover effects for list view
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            if (cardContainer.classList.contains('list-view')) {
+                this.style.transform = 'translateY(-3px)';
+                this.style.boxShadow = 'var(--shadow-md)';
+            }
+        });
+        
+        card.addEventListener('mouseleave', function() {
+            if (cardContainer.classList.contains('list-view')) {
+                this.style.transform = 'translateY(0)';
+                this.style.boxShadow = 'var(--shadow-sm)';
+            }
+        });
+    });
+});
         const hamburger = document.getElementById("hamburger");
         const navLinks = document.getElementById("navLinks");
 
