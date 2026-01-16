@@ -195,27 +195,6 @@
         flex-wrap: wrap;
         gap: 12px;
       }
-
-      .projects-container.compact-view .project-card>* {
-        min-width: auto !important;
-        flex: 1 1 auto;
-      }
-
-      .projects-container.compact-view .project-footer {
-        text-align: left;
-      }
-    }
-
-    @media (max-width: 600px) {
-      .projects-container {
-        grid-template-columns: 1fr;
-      }
-
-      .projects-container.compact-view .project-card {
-        flex-direction: column;
-        align-items: stretch;
-        gap: 12px;
-      }
     }
   </style>
 </head>
@@ -350,6 +329,140 @@
       and get inspired 🌱
     </p>
   </header>
+
+  <!-- VIEW TOGGLE -->
+  <div style="
+        display: flex;
+        justify-content: flex-end;
+        max-width: 1200px;
+        margin: 0 auto 20px;
+        padding: 0 20px;
+      ">
+    <button id="viewToggleBtn" class="view-toggle-btn" title="Toggle view">
+      <i class="fas fa-th-large"></i>
+    </button>
+  </div>
+
+  <!-- SEARCH AND FILTER -->
+  <div class="search-filter-container">
+    <input type="text" id="searchInput" placeholder="Search projects, tech, or contributor..." />
+
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-tech="all">All</button>
+      <button class="filter-btn" data-tech="html">HTML</button>
+      <button class="filter-btn" data-tech="css">CSS</button>
+      <button class="filter-btn" data-tech="javascript">JavaScript</button>
+    </div>
+
+    <select id="sortSelect" class="sort-select">
+      <option value="az">A–Z</option>
+      <option value="za">Z–A</option>
+    </select>
+  </div>
+
+  <!-- PROJECTS GRID -->
+  <section class="projects-container">
+    <!-- PROJECT CARD TEMPLATE -->
+    <div class="project-card">
+      <h2>Sample Card</h2>
+      <p class="project-desc">
+        This is a sample project description. Replace this with actual project
+        details.
+      </p>
+
+      <div class="project-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+
+      <div class="project-links">
+        <a href="#" target="_blank"> <i class="fab fa-github"></i> GitHub </a>
+        <a href="#" target="_blank">
+          <i class="fas fa-external-link-alt"></i> Live
+        </a>
+      </div>
+
+      <div class="project-footer">
+        <span>By</span>
+        <a href="https://github.com/Sneha-Amballa" target="_blank">Amballa Sneha</a>
+      </div>
+    </div>
+    <!-- END PROJECT CARD -->
+
+    <!-- 👇 CONTRIBUTORS ADD NEW PROJECTS BELOW 👇 -->
+    <div class="project-card">
+      <h2>Advanced Text Case Converter</h2>
+      <p class="project-desc">
+        A powerful text utility that converts text into multiple cases
+        including uppercase, lowercase, sentence case, title case, and toggle
+        case with live preview, undo history, and keyboard shortcuts.
+      </p>
+      <div class="project-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Utility Tool</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/Sneha-Amballa/advanced-text-case-converter" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://sneha-amballa.github.io/advanced-text-case-converter/" target="_blank">
+          <i class="fas fa-external-link-alt"></i> Live
+        </a>
+      </div>
+      <div class="project-footer">
+        <span>By</span>
+        <a href="https://github.com/Sneha-Amballa" target="_blank">Amballa Sneha</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h2>Code Editor</h2>
+      <p class="project-desc">
+        A professional code editor with multi-language support, customizable
+        themes, real-time preview, and essential features like code download
+        and clearing.
+      </p>
+      <div class="project-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+      <div class="project-links">
+        <a href="./projects/code-editor/" target="_blank">
+          <i class="fas fa-external-link-alt"></i> Live
+        </a>
+      </div>
+      <div class="project-footer">
+        <span>By</span>
+        <a href="https://github.com/omkarhole" target="_blank">Omkar</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h2>Hangman Game</h2>
+      <p class="project-desc">
+        A classic Hangman game where players guess letters to reveal a hidden
+        word before running out of attempts. Features multiple categories,
+        hints, and a scoring system.
+      </p>
+      <div class="project-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+      </div>
+      <div class="project-links">
+        <a href="./projects/hangman-game/" target="_blank">
+          <i class="fas fa-external-link-alt"></i> Live
+        </a>
+      </div>
+      <div class="project-footer">
+        <span>By</span>
+        <a href="https://github.com/omkarhole" target="_blank">Omkar</a>
+      </div>
+    </div>
 
   <!-- VIEW TOGGLE -->
   <div style="
