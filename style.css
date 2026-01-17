@@ -2214,7 +2214,7 @@ html {
         padding: 14px 16px;
         flex-direction: column;
         gap: 6px;
-        background: rgba(30, 41, 59, 0.95);
+        background: var(--glass-bg);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
         border: 1px solid var(--glass-border);
