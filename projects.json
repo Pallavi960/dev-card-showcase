@@ -1520,6 +1520,17 @@
   }
 },
 {
+  "title": "Productivity Myths: Myth vs Fact 🧠",
+  "description": "A Myth vs Fact guide that debunks common productivity myths followed by students.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "Productivity",
+    "Education",
+    "Student Wellness"
+  ],
+  "links": {
+    "live": "./projects/productivity-myths/index.html"
   "title": "Study–Rest Balance Guide ⚖️",
   "description": "A visual guide that explains the importance of balancing study time with proper rest and recovery.",
   "tags": [
