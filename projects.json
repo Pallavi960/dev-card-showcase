@@ -273,6 +273,22 @@
             "github": "https://github.com/your-github-username"
         }
     },
+       {
+        "title": "IRIDUM Game",
+        "description": "An engaging web-based game where players control a character to navigate through obstacles and collect iridium crystals. Features smooth animations, scoring system, and increasing difficulty levels for an exciting gaming experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/iridium-game/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "File Size Converter",
         "description": "A real-time utility that converts file sizes between Bytes, KB, MB, and GB instantly. Helps users quickly calculate and understand storage sizes with a clean, interactive interface.",
@@ -317,6 +333,22 @@
         ],
         "links": {
             "live": "./projects/basket-ball-game/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+     {
+        "title": "Page Not Found",
+        "description": "A custom 404 error page that informs users when they navigate to a non-existent page, providing a friendly message and a link to return to the homepage.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/page-not-found/index.html"
         },
         "author": {
             "name": "Omkar",
@@ -3616,6 +3648,10 @@
 {
   "title": "Color Sorting Puzzle 🧪🎨",
   "description": "A colorful logic puzzle where users sort layered colors into correct jars.",
+  "title": "Spot the Mistake 🔍",
+  "description": "A visual challenge where users find logical or UI mistakes between similar layouts.",
+  "title": "Emoji Emotion Guess Game 😄🤔",
+  "description": "A visual game where users guess emotions or situations from emoji combinations.",
   "title": "Silent Animation Guessing Game 🎞️",
   "description": "A visual guessing game where users interpret silent animations and identify the situation.",
   "tags": [
@@ -3628,6 +3664,21 @@
   ],
   "links": {
     "live": "./projects/color-sorting-puzzle/index.html"
+    "Brain Training",
+    "UI Awareness"
+  ],
+  "links": {
+    "live": "./projects/spot-the-mistake-game/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/your-github-username"
+  }
+    "Emotional Awareness",
+    "Interactive Learning"
+  ],
+  "links": {
+    "live": "./projects/emoji-emotion-guess-game/index.html"
     "Animation",
     "Game",
     "Observation Skills"
@@ -3815,6 +3866,26 @@
     "name": "Sneha Amballa",
     "github": "https://github.com/Sneha-Amballa"
   }
+},
+{
+    "title": "Retro Snake Game",
+    "description": "A classic retro-style Snake game built using HTML Canvas with pixel-inspired visuals, keyboard controls, increasing difficulty, and a scoring system for an engaging learning experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas",
+        "Game",
+        "Retro"
+    ],
+    "links": {
+        "live": "https://your-username.github.io/dev-card-showcase/games/snake/"
+    },
+    "author": {
+        "name": "Amballa Sneha",
+        "github": "https://github.com/Sneha-Amballa"
+    }
 }
+
 
 ]
