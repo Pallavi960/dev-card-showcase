@@ -1775,6 +1775,25 @@
     "name": "Karthik",
     "github": "https://github.com/pavanakarthik12"
   }
+},
+{
+  "title": "Movie Drawing Guess Game 🎬🎨",
+  "description": "A Pictionary-style game where players draw a movie and others guess it.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Game",
+    "Canvas",
+    "Entertainment"
+  ],
+  "links": {
+    "live": "./projects/movie-drawing-guess-game/index.html"
+  },
+  "author": {
+    "name": "Sneha Amballa",
+    "github": "https://github.com/Sneha-Amballa"
+  }
 }
 
 ]
