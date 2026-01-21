@@ -4138,8 +4138,26 @@
     "name": "PavanKarthik",
     "github": "https://github.com/pavanakarthik12"
   }
+},
+{
+    "title": "Maze Collector Retro Game",
+    "description": "A grid-based retro maze game where players collect items, avoid enemies, and score points using keyboard controls, inspired by classic Pac-Man-style gameplay.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas",
+        "Game",
+        "Retro",
+        "Maze"
+    ],
+    "links": {
+        "live": "#"
+    },
+    "author": {
+        "name": "Amballa Sneha",
+        "github": "https://github.com/Sneha-Amballa"
+    }
 }
-
-
 
 ]
