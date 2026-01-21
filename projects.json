@@ -4138,8 +4138,25 @@
     "name": "PavanKarthik",
     "github": "https://github.com/pavanakarthik12"
   }
+},
+{
+    "title": "Flappy Bird Retro Game",
+    "description": "A Flappy Bird–style retro arcade game featuring gravity-based movement, keyboard-controlled jumps, random pipe generation, and distance-based scoring built using HTML Canvas.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Canvas",
+        "Game",
+        "Retro"
+    ],
+    "links": {
+        "live": "#"
+    },
+    "author": {
+        "name": "Amballa Sneha",
+        "github": "https://github.com/Sneha-Amballa"
+    }
 }
-
-
 
 ]
