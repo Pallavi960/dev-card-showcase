@@ -103,6 +103,24 @@
             "github": "https://github.com/omkarhole"
         }
     },
+      {
+        "title": "checkers game",
+        "description": "A classic checkers game with two-player mode, valid move enforcement, kinging, and a clean user interface for an enjoyable gaming experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+            
+           
+        ],
+        "links": {
+            "live": "./projects/checkers/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "PDF Watermark Tool",
         "description": "Browser-based tool to add text/image watermarks to PDFs with full customization. Process files locally for privacy.",
