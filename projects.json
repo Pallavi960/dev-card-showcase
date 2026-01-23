@@ -34,6 +34,22 @@
             "github": "https://github.com/Sneha-Amballa"
         }
     },
+    {
+        "title": "Word Scrammble Game",
+        "description": "A fun and interactive word scramble game where players unscramble letters to form valid words.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/word-scramble/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
             {
         "title": "Physics Sandbox",
         "description": "A physics simulation sandbox with interactive controls and visualizations.",
