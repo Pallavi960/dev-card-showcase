@@ -16,6 +16,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+        {
+        "title": "Pet Name Generator",
+        "description": "A fun web application that generates unique and creative pet names based on user-selected criteria such as pet type, personality traits, and themes.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/pet-name-generator/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
     {
         "title": "Advanced Text Case Converter",
         "description": "A powerful text utility that converts text into multiple cases including uppercase, lowercase, sentence case, title case, and toggle case with live preview, undo history, and keyboard shortcuts.",
