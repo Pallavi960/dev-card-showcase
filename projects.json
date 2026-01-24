@@ -5095,6 +5095,8 @@
 {
     "title": "Retro Snake Reloaded",
     "description": "A retro-styled Snake game with pixel graphics, keyboard controls, and progressive difficulty. Inspired by classic Nokia Snake games with modern HTML5 Canvas implementation.",
+    "title": "AI-Style Image Captioner",
+    "description": "Upload an image and get a creative, AI-style caption generated for it. Features dynamic caption generation with templates and keywords.",
     "tags": [
         "HTML",
         "CSS",
@@ -5108,6 +5110,16 @@
     "author": {
         "name": "Sneha Amballa",
         "github": "https://github.com/Sneha-Amballa"
+        "Utility Tool",
+        "AI",
+        "Image"
+    ],
+    "links": {
+        "live": "./projects/ai-style-image-captioner/index.html"
+    },
+    "author": {
+        "name": "Bavanetha27",
+        "github": "https://github.com/Bavanetha27"
     }
 }
 ]
