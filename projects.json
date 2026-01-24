@@ -1955,6 +1955,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+       {
+        "title": "interview schedular",
+        "description": "A web application that helps users schedule and manage interviews with features like calendar integration, reminders, and candidate tracking.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/interview-schedular/index.html"
+        },
+        "author": {
+            "name": "omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Virtual Control Pannel",
         "description": "A virtual control panel that simulates various controls like buttons, switches, and sliders for interactive user experiences.",
