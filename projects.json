@@ -1,5 +1,23 @@
 [
     {
+        "title": "Brick Breaker",
+        "description": "A classic Brick Breaker (Breakout) game with paddle controls, ball physics, brick grid destruction, power-ups, and level progression. Features score tracking, lives system, and arcade-style gameplay.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "Canvas"
+        ],
+        "links": {
+            "live": "./brickbreaker.html"
+        },
+        "author": {
+            "name": "Sneha Amballa",
+            "github": "https://github.com/Sneha-Amballa"
+        }
+    },
+    {
         "title": "Symon Says Game",
         "description": "A fun and interactive memory game where players must repeat increasingly complex sequences of colors and sounds. Features multiple difficulty levels, score tracking, and engaging animations.",
         "tags": [
