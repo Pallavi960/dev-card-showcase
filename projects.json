@@ -871,6 +871,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+        {
+        "title": "Spot the Difference Game",
+        "description": "A fun and challenging game where players must find differences between two similar images within a time limit. Features multiple levels and score tracking.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/SpotDifference/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
     {
         "title": "Mini Geo Guesser",
         "description": "A fun game where you have to guess a location off of famous landscape pictures shown to you along with some hints ",
