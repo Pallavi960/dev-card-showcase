@@ -1,16 +1,16 @@
 [
     {
-        "title": "Retro Learning Arcade",
-        "description": "A retro-style learning arcade interface with mini educational games including math challenges, logic puzzles, and traffic rules quizzes. Features pixel fonts, scoring system, and gamified learning experience.",
+        "title": "Pong - Neon Edition",
+        "description": "A two-player Pong game with neon retro visuals. Features keyboard controls, ball physics, collision detection, score tracking, and retro sound effects. Inspired by the classic arcade game with modern neon aesthetics.",
         "tags": [
             "HTML",
             "CSS",
             "JavaScript",
-            "Educational",
-            "Game"
+            "Game",
+            "Canvas"
         ],
         "links": {
-            "live": "./arcade.html"
+            "live": "./pong.html"
         },
         "author": {
             "name": "Sneha Amballa",
