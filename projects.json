@@ -758,6 +758,22 @@
             "github": "https://github.com/neeru24"
         }
     },
+            {
+        "title": "Wallpaper Generator",
+        "description": "A tool that generates beautiful gradient wallpapers with the ability to download them.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/WallpaperGenerator/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
     {
         "title": "Code Editor",
         "description": "A professional code editor with multi-language support, customizable themes, real-time preview, and essential features like code download and clearing.",
