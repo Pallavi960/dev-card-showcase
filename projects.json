@@ -5810,6 +5810,15 @@
     ],
     "links": {
         "live": "./projects/ghostnet/index.html"
+    "title" : "Typemorph",
+    "description": "A JavaScript library for creating typewriter-style animations. It provides a simple and intuitive way to define and work with typewriter-style animations in your JavaScript applications.",
+    "tags": [
+        "JavaScript",
+        "Typewriter Animation",
+        "Library"
+    ],
+    "links": {
+        "live": "./projects/typemorph/index.html"
     "title" :"CssPhysicslab",
     "description": "A JavaScript library for creating physics-based animations using CSS. It provides a simple and intuitive way to define and work with physics-based animations in your JavaScript applications.",
     "tags": [
