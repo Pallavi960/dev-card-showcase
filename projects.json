@@ -91,6 +91,23 @@
             "github": "https://github.com/omkarhole"
         }
     },
+        {
+        "title": "365 Days ",
+        "description": "A web application that displays a new motivational quote or fact each day for 365 days. Users can bookmark their favorite quotes and share them on social media.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/365Days/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Unit Converter Hub",
         "description": "A compact and responsive unit conversion utility that allows users to convert values across multiple categories such as length, weight, and temperature. Designed with a clean UI and smooth UX for quick and accurate conversions.",
