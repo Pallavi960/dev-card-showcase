@@ -17,6 +17,23 @@
             "github": "https://github.com/Sneha-Amballa"
         }
     },
+     {
+        "title": "3D Mouse",
+        "description": "A 3D mouse model that responds to user inputs for rotation and zooming, providing an interactive experience to explore the model from different angles.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/3DMouse/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
       {
         "title": "Battle of Elements",
         "description": "A simple card game where two players draw cards and the player with the higher card wins the round. The game continues until all cards are played, and the player with the most rounds won is declared the overall winner.",
