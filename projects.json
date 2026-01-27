@@ -1178,7 +1178,7 @@
         ],
         "links": {
             "live": "./projects/SpotDifference/index.html"
-        },
+        }, 
         "author": {
             "name": "Neeru",
             "github": "https://github.com/neeru24"
@@ -1198,6 +1198,22 @@
         "author": {
             "name": "CodeMaster",
             "github": "https://github.com/CodeMaster11000"
+        }
+    },
+            {
+        "title": "Virtual Coffee Maker",
+        "description": "A fun and interactive virtual coffee maker where users can customize their drink with various options like temperature, sugar level, and toppings.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/virtualcoffee/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
         }
     },
     {
