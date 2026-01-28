@@ -1647,6 +1647,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+      {
+        "title": "ChromaLab Pro",
+        "description": "An advanced color palette generator that allows users to create, customize, and export color schemes for design projects. Features include color harmonies, gradient creation, and real-time preview.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/ChromaLabPro/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
                 {
         "title": "Memory Matching Game",
         "description": "A classic memory matching game where players flip cards to find matching pairs. Features multiple themes, difficulty levels, and a timer for added challenge.",
