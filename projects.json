@@ -159,6 +159,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+     {
+        "title": "Attention Garden",
+        "description": "A productivity tool that helps users stay focused by growing a virtual garden. The longer the user stays focused, the more their garden flourishes with new plants and decorations.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/AttentionGarden/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Password Genie - Random Password Generator",
         "description": "A modern and interactive password generator that allows users to create strong and secure passwords. Users can customize password length and include uppercase, lowercase, numbers, and symbols. It also features a strength indicator and a convenient copy-to-clipboard function, all within a clean and responsive interface.",
