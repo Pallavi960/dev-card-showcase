@@ -1519,6 +1519,22 @@
         }
     },
         {
+        "title": "Magnetic Cursor Effect",
+        "description": "An interactive web effect where elements are attracted to the cursor as it moves across the screen, creating a magnetic-like interaction. Features customizable attraction strength and element styles.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/magnetic/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
+        {
         "title": "Spot the Difference Game",
         "description": "A fun and challenging game where players must find differences between two similar images within a time limit. Features multiple levels and score tracking.",
         "tags": [
