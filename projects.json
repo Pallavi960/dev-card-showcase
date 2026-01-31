@@ -1608,6 +1608,22 @@
         }
     },
     {
+        "title": "Payroll Calculator",
+        "description": "A tool that calculates employee payroll based on hours worked, hourly rate, and deductions.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/payroll/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
+    {
         "title": "Time Flow",
         "description": "TimeFlow is a premium, high-performance time tracking application built for users who have a hard time managing \"TIME\" itself",
         "tags": [
