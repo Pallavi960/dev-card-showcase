@@ -1654,6 +1654,22 @@
         }
     },
     {
+        "title": "Dead Code Detector",
+        "description": "A tool that detects and highlights unused functions, variables, and imports in JavaScript code.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/DeadCode/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
+    {
         "title": "Colorful Quiz Challenge",
         "description": "A bright, engaging quiz website with cheerful pastel shades and random questions on various fun topics. Features score tracking, hints, and celebration animations.",
         "tags": [
