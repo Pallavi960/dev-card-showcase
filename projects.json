@@ -63,6 +63,24 @@
             "github": "https://github.com/Gupta-02"
         }
     },
+    {
+  "title": "Pattern Recall",
+  "description": "A responsive memory game that challenges users to observe and recall increasingly complex visual patterns. Designed with a game-like interface, smooth animations, and progressive difficulty to enhance focus and cognitive skills.",
+  "tags": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Game",
+    "UI/UX"
+  ],
+  "links": {
+    "live": "./projects/pattern-recall/"
+  },
+  "author": {
+    "name": "Anvesha",
+    "github": "https://github.com/your-github-username"
+  }
+},
        {
         "title": "Bubble pop",
         "description": "Bubble pop game where players pop bubbles to score points. Features colorful graphics, popping sound effects, and increasing difficulty levels for an engaging and fun experience.",
@@ -1631,6 +1649,38 @@
         ],
         "links": {
             "live": "./projects/BreathingMeditation/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
+    {
+        "title": "QR code Generator",
+        "description": "A tool that generates QR codes from user input text or URLs.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/qrCode/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
+    {
+        "title": "Dead Code Detector",
+        "description": "A tool that detects and highlights unused functions, variables, and imports in JavaScript code.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/DeadCode/index.html"
         },
         "author": {
             "name": "Neeru",
