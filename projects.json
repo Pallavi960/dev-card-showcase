@@ -1638,6 +1638,22 @@
         }
     },
     {
+        "title": "QR code Generator",
+        "description": "A tool that generates QR codes from user input text or URLs.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/qrCode/index.html"
+        },
+        "author": {
+            "name": "Neeru",
+            "github": "https://github.com/neeru24"
+        }
+    },
+    {
         "title": "Colorful Quiz Challenge",
         "description": "A bright, engaging quiz website with cheerful pastel shades and random questions on various fun topics. Features score tracking, hints, and celebration animations.",
         "tags": [
