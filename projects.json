@@ -7934,19 +7934,19 @@
     }
   },
   {
-    "title": "Hygiene Routine Tracker",
-    "description": "A personal hygiene habit tracker with daily checklists, consistency charts, and reminders to encourage healthy routines.",
+    "title": "Running Distance Tracker",
+    "description": "A beautiful running distance and pace tracking UI with performance graphs and helpful tips for runners to analyze pace improvement.",
     "tags": [
       "HTML",
       "CSS",
       "JavaScript",
-      "Health",
-      "Habits",
-      "Tracker",
+      "Fitness",
+      "Running",
+      "Analytics",
       "Charts"
     ],
     "links": {
-      "live": "./projects/Hygiene-Routine-Tracker/"
+      "live": "./projects/Running-Distance-Tracker/"
     },
     "author": {
       "name": "Gupta",
