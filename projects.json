@@ -17,6 +17,24 @@
             "github": "https://github.com/your-github-username"
         }
     },
+    {
+    "title": "Queue Management Simulator Game",
+    "description": "A gamified queue management game where users add, serve, and remove people from a virtual queue. Features random events like VIP arrivals, unexpected departures, a points and level-up system, and a visually engaging neon-style interface with interactive animations for a fun arcade-like experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Gamification",
+        "Interactive Game"
+    ],
+    "links": {
+        "live": "./projects/queue-management/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
      {
         "title": "Code Formattor pro",
         "description": "A utility tool to format and minify HTML code with live preview. Features include beautifying HTML, minifying HTML, copying formatted code, downloading as a file, and a dark mode toggle for comfortable use.",
