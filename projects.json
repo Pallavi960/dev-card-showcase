@@ -70,6 +70,24 @@
         "github": "https://github.com/your-github-username"
     }
 },
+{
+    "title": "Elevator Control Simulator Game",
+    "description": "A polished gamified elevator control game where users operate a multi-floor elevator in a neon black & blue building. Features include calling the elevator from any floor, animated doors, queue management, direction indicators, emergency stop, and interactive responsive controls. Designed for an arcade-style immersive experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Gamification",
+        "Interactive Game"
+    ],
+    "links": {
+        "live": "./projects/elevator-control/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
    {
         "title": "HTML Formatter",
         "description": "A utility tool to format and minify HTML code with live preview. Features include beautifying HTML, minifying HTML, copying formatted code, downloading as a file, and a dark mode toggle for comfortable use.",
