@@ -17,6 +17,23 @@
             "github": "https://github.com/your-github-username"
         }
     },
+     {
+        "title": "Code Formattor pro",
+        "description": "A utility tool to format and minify HTML code with live preview. Features include beautifying HTML, minifying HTML, copying formatted code, downloading as a file, and a dark mode toggle for comfortable use.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/React-formattor/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
     "title": "DiffCraft – Text Diff Checker",
     "description": "A modern text difference checker that compares two texts in real time and highlights added, removed, and modified lines. Includes similarity percentage, ignore case and whitespace options, dark mode, and a clean editor-style UI for an efficient comparison experience.",
