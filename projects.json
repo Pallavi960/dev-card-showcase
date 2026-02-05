@@ -3582,6 +3582,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+      {
+        "title": "Copy color name",
+        "description": "A simple web application that allows users to copy the name of a color by clicking on it. The app displays a palette of colors, and when a user clicks on a color, its name is copied to the clipboard for easy use in design projects.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/copy-name/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Advanced Text Case Convertor",
         "description": "A web application that allows users to convert text into various cases such as uppercase, lowercase, title case, sentence case, and toggle case with additional features like live preview and undo history.",
