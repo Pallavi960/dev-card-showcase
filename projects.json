@@ -94,6 +94,27 @@
         }
     },
     {
+    "title": "Pattern Master",
+    "description": "An advanced pattern prediction game featuring number, letter, and shape sequences. Includes dynamic difficulty, streak-based scoring, hints with penalties, level progression, timer challenges, and a sleek futuristic UI for an engaging cognitive training experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Game",
+        "Patterns",
+        "Logic",
+        "UI/UX",
+        "Interactive"
+    ],
+    "links": {
+        "live": "./projects/pattern-prediction/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
+    {
         "title": "Queue Management Simulator Game",
         "description": "A gamified queue management game where users add, serve, and remove people from a virtual queue. Features random events like VIP arrivals, unexpected departures, a points and level-up system, and a visually engaging neon-style interface with interactive animations for a fun arcade-like experience.",
         "tags": [
