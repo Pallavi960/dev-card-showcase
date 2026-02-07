@@ -420,6 +420,23 @@
         }
     },
     {
+        "title": "Kinetics waves animation",
+        "description": "An animated kinetic wave effect that creates a soothing visual experience. Features adjustable wave speed, amplitude, and color schemes, along with a responsive design for various screen sizes.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/kinetic-waves/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
         "title": "Breathing Circle",
         "description": "A minimalist breathing exercise tool designed to promote calm and focus. Features a smooth inhale–hold–exhale animation cycle, soft wellness-inspired visuals, and a fully responsive layout for a distraction-free experience across devices.",
         "tags": [
