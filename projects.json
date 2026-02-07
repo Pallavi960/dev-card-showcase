@@ -54,6 +54,26 @@
         "github": "https://github.com/your-github-username"
     }
 },
+{
+    "title": "Stress vs Performance Graph Tool",
+    "description": "An interactive visualization based on the Yerkes–Dodson Law that demonstrates how stress levels influence performance. Features a real-time animated curve, color-coded performance zones, auto-simulation mode, and a vibrant gradient UI for an engaging and insightful experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Visualization",
+        "UI/UX",
+        "Canvas",
+        "Productivity"
+    ],
+    "links": {
+        "live": "./projects/stress-vs-performance-graph/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
     {
         "title": "Daily Fun Fact Challenge",
         "description": "A gamified daily fun fact application where users guess whether a fact is true or false across multiple difficulty levels. Features a point-based reward system, winner status progression, and a responsive, visually engaging interface for learning through play.",
