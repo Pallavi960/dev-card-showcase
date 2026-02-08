@@ -4441,6 +4441,25 @@
         }
     },
     {
+    "title": "Cyber Account Unlock Flow",
+    "description": "An advanced step-based account unlock request system with a futuristic cyber-themed interface. Features email verification simulation, unlock reason selection, review stage, ticket generation, and animated neon UI elements for a polished, high-tech experience.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Cyber UI",
+        "Authentication",
+        "Form Flow"
+    ],
+    "links": {
+        "live": "./projects/account-unlock/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
+    {
         "title": "RGB color ",
         "description": "A color picker tool that allows users to generate and customize RGB colors using sliders. Users can see the color preview and copy the RGB code for use in design projects.",
         "tags": [
