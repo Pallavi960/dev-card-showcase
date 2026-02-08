@@ -5604,6 +5604,25 @@
         }
     },
     {
+    "title": "Idea Ranking Ladder",
+    "description": "An intermediate-level decision tool that helps users compare and rank multiple ideas through a ladder-style system. Users make pairwise choices across rounds, with dynamic score updates, automatic reordering, and a final prioritized list. The interface features a sleek cyber-inspired dashboard with progress indicators and interactive controls.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "UI/UX",
+        "Decision Making",
+        "Gamification"
+    ],
+    "links": {
+        "live": "./projects/idea-ranking-ladder/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
+    {
         "title": "infinite scroll image gallery",
         "description": "A web application that displays an infinite scroll image gallery using Unsplash API to fetch high-quality images as the user scrolls down the page.",
         "tags": [
