@@ -1111,6 +1111,23 @@
             "github": "https://github.com/Gupta-02"
         }
     },
+         {
+        "title": "HTML components library",
+        "description": "A collection of reusable HTML components with modern design and interactive features. Includes buttons, cards, modals, and more, all built with HTML, CSS, and JavaScript for easy integration into any project.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/HTML-Components/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Island Builder",
         "description": "A cozy tile-placement strategy game where players build island paradises by strategically placing tiles to maximize adjacency scoring. Features random tile deck, turn-based gameplay, and beautiful island-building mechanics.",
