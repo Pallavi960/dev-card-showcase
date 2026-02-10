@@ -1,74 +1,84 @@
 body {
-    font-family: Arial, sans-serif;
     background: #181818;
     color: #f5f5f5;
+    font-family: 'Segoe UI', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
+.dashboard-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #232323;
+    border-radius: 18px;
+    box-shadow: 0 6px 32px 0 rgba(0,0,0,0.45);
+    padding: 32px 28px 28px 28px;
+}
 header {
-    background: #232323;
+    border-bottom: 2px solid #111;
+    margin-bottom: 28px;
+    padding-bottom: 18px;
+}
+header h1 {
     color: #fff;
-    text-align: center;
-    padding: 1.5rem 0 1rem 0;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    font-size: 2.2rem;
+    margin: 0 0 8px 0;
+    letter-spacing: 1px;
 }
-nav {
-    margin-top: 1rem;
-}
-nav a {
+header p {
     color: #bdbdbd;
-    text-decoration: none;
-    margin: 0 1.5rem;
     font-size: 1.1rem;
-    transition: color 0.2s;
+    margin: 0;
 }
-nav a:hover {
-    color: #fff;
+.log-section, .trends-section, .tips-section {
+    background: #1a1a1a;
+    border-radius: 12px;
+    margin-bottom: 24px;
+    padding: 20px 18px 18px 18px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.18);
 }
-main {
-    max-width: 800px;
-    margin: 2rem auto;
-    background: #232323;
-    border-radius: 8px;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.35);
-    padding: 2rem;
+.log-section h2, .trends-section h2, .tips-section h2 {
+    color: #e0e0e0;
+    margin-top: 0;
+    font-size: 1.3rem;
 }
-section {
-    margin-bottom: 2.5rem;
+#water-log-form {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
 }
-input, button {
-    padding: 0.7rem;
-    border-radius: 4px;
-    border: 1px solid #444;
-    background: #181818;
-    color: #f5f5f5;
+#water-log-form input, #water-log-form button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
     font-size: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 0.5rem;
 }
-input:focus {
-    border: 1.5px solid #bdbdbd;
+#water-log-form input {
     background: #232323;
+    color: #f5f5f5;
+    border: 1px solid #333;
 }
-button {
-    background: #444;
+#water-log-form button {
+    background: #111;
+    color: #fff;
     cursor: pointer;
     transition: background 0.2s;
 }
-button:hover {
-    background: #181818;
+#water-log-form button:hover {
+    background: #333;
 }
-ul {
-    list-style: none;
-    padding: 0;
+canvas#usageChart {
+    background: #232323;
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 100% !important;
+    max-height: 260px;
 }
-ul li {
-    background: #181818;
-    border: 1px solid #444;
-    border-radius: 4px;
-    margin-bottom: 0.5rem;
-    padding: 0.7rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#tips-list {
+    margin: 0;
+    padding-left: 18px;
+    color: #bdbdbd;
+    font-size: 1.05rem;
+}
+#tips-list li {
+    margin-bottom: 8px;
 }
