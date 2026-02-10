@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/projects.css">
 
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="css/navbar.css">
 
     <!-- Favicon -->
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
@@ -70,47 +71,66 @@
 
     <!-- NAVBAR START -->
     <nav class="navbar">
-        <div class="nav-logo">🚀 Community</div>
+  <div class="nav-logo">🚀 Community</div>
 
-        <!-- Hamburger Icon -->
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+  <!-- Hamburger Icon -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 
-        <ul class="nav-links" id="navLinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contribute.html">Contribute</a></li>
-            <li><a href="https://github.com/Jayanta2004/dev-card-showcase" target="_blank" rel="noopener">GitHub</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="resources.html">Resources</a></li>
-            <li><a href="statistics.html">Statistics</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="guidelines.html">Guidelines</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            <li><a href="bug-report.html">Bug Report</a></li>
-            <li><a href="feature-request.html">Feature Request</a></li>
-            <li><a href="analytics.html">Analytics</a></li>
-            <li><a href="roadmap.html">Roadmap</a></li>
-            <li><a href="gamified-learning.html">Learning Platform</a></li>
-        </ul>
-        <div class="theme-switcher" role="group" aria-label="Theme switcher">
-            <button class="theme-option" data-theme="ocean" aria-pressed="true">
-                <span class="swatch ocean"></span>
-                Ocean
-            </button>
-            <button class="theme-option" data-theme="neon" aria-pressed="false">
-                <span class="swatch neon"></span>
-                Neon
-            </button>
-            <button class="theme-option" data-theme="minimal" aria-pressed="false">
-                <span class="swatch minimal"></span>
-                Minimal
-            </button>
-        </div>
-    </nav>
+  <ul class="nav-links" id="navLinks">
+    <!-- Primary links -->
+    <li><a href="index.html">Home</a></li>
+    <li><a href="contribute.html">Contribute</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li>
+      <a href="https://github.com/Jayanta2004/dev-card-showcase" target="_blank" rel="noopener">
+        GitHub
+      </a>
+    </li>
+
+    <!-- Resources Dropdown -->
+    <li class="dropdown">
+      <button class="drop-btn">Resources ▾</button>
+      <ul class="dropdown-menu">
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="statistics.html">Statistics</a></li>
+        <li><a href="analytics.html">Analytics</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+      </ul>
+    </li>
+
+    <!-- More Dropdown -->
+    <li class="dropdown">
+      <button class="drop-btn">More ▾</button>
+      <ul class="dropdown-menu">
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="guidelines.html">Guidelines</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="bug-report.html">Bug Report</a></li>
+        <li><a href="feature-request.html">Feature Request</a></li>
+        <li><a href="gamified-learning.html">Learning Platform</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- Theme Switcher -->
+  <div class="theme-switcher" role="group" aria-label="Theme switcher">
+    <button class="theme-option" data-theme="ocean" aria-pressed="true">
+      <span class="swatch ocean"></span> Ocean
+    </button>
+    <button class="theme-option" data-theme="neon" aria-pressed="false">
+      <span class="swatch neon"></span> Neon
+    </button>
+    <button class="theme-option" data-theme="minimal" aria-pressed="false">
+      <span class="swatch minimal"></span> Minimal
+    </button>
+  </div>
+</nav>
+
 
     <!-- NAVBAR END -->
 

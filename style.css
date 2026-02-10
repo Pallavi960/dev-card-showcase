@@ -400,38 +400,47 @@ body::before {
         opacity: 0.8;
     }
 }
-
 /* =========================================
-   NAVBAR STYLES
+   NAVBAR — FINAL (CENTERED, CURVED, STABLE)
    ========================================= */
+
 .navbar {
-    position: sticky;
-    top: 20px;
-    z-index: 1000;
-    /* Use variables here so it changes with the theme */
-    background: linear-gradient(to bottom,
-            var(--glass-bg),
-            var(--navbar-gradient-bottom));
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border: 1px solid var(--glass-border);
-    border-radius: 12px;
-    padding: 15px 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1400px;
-    margin: 0 auto 40px auto;
-    transition: all 0.3s ease;
-    box-shadow: var(--navbar-shadow);
-    /* Uses the new shadow variable */
+  position: sticky;
+  top: 20px;
+  z-index: 2000;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background: transparent;
 }
+
+.navbar .nav-inner {
+  width: calc(100% - 48px);
+  max-width: 1400px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 14px 28px;
+
+  background: linear-gradient(135deg, #071a33, #0b2b52);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-radius: 20px;   /* ✅ CURVES BACK */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
 
 /* Update hover to keep the shadow looking good */
 .navbar:hover {
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
 }
-
 
 .nav-logo {
     color: var(--primary-color);
@@ -2162,6 +2171,64 @@ body[data-theme="light"] .footer {
     border-top: 1px solid #d1d5db;
     color: #4b5563;
   }
+  /* Prevent themes from breaking navbar */
+body[data-theme] .navbar .nav-inner {
+  background: linear-gradient(135deg, #071a33, #0b2b52);
+}
+
+
+  /* =========================================
+   NAVBAR — CLEAN & CENTERED (DESKTOP FIRST)
+   ========================================= */
+
+/* Full-width strip */
+.navbar {
+  position: sticky;
+  top: 20px;
+  z-index: 2000;
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background: transparent;
+}
+
+/* Inner navbar */
+.navbar .nav-inner {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 14px 28px;
+
+  background: var(--bg-navbar);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid var(--glass-border);
+  border-radius: 18px;
+
+  box-shadow: var(--shadow-lg);
+}
+
+.nav-links a,
+.drop-btn {
+  color: var(--text-primary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.nav-links a:hover,
+.drop-btn:hover {
+  color: var(--primary-color);
+}
 
 /* =========================================
    CIRCLE CURSOR EFFECT
@@ -3968,25 +4035,6 @@ body[data-theme="light"] .toast-message {
 .toast-warning {
     background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%) !important;
 }
-/* ===== FINAL NAVBAR (SINGLE SOURCE OF TRUTH) ===== */
-.navbar {
-  position: sticky;
-  top: 20px;
-  z-index: 2000;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 16px 28px;
-  max-width: 1400px;
-  margin: 0 auto 40px;
-
-  background: linear-gradient(135deg, #0b1d3a, #0f2c4f);
-  border-radius: 14px;
-
-  box-shadow: 0 12px 40px rgba(0,0,0,0.35);
-}
 
 .nav-logo {
   font-size: 1.4rem;
@@ -4015,6 +4063,23 @@ body[data-theme="light"] .toast-message {
   border: none;
   cursor: pointer;
 }
+.nav-logo {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #4fd1ff;
+}
+
+.nav-links a,
+.drop-btn {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.nav-links a:hover,
+.drop-btn:hover {
+  color: #4fd1ff;
+}
+
 .drop-btn {
   color: #fff;
   text-decoration: none;
@@ -4032,6 +4097,41 @@ body[data-theme="light"] .toast-message {
 /* Dropdown */
 .dropdown {
   position: relative;
+}
+/* Enable dropdown on hover (desktop) */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Smooth appearance */
+.dropdown-menu {
+  animation: dropdownFade 0.2s ease;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu li {
+  padding: 8px 10px;
+}
+
+.dropdown-menu a {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+/* Desktop hover */
+@media (min-width: 901px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+/* JS-controlled open */
+.dropdown.open .dropdown-menu {
+  display: block;
 }
 
 .dropdown-menu {
@@ -4199,12 +4299,6 @@ body {
    UPDATE EXISTING COMPONENTS WITH THEME VARIABLES
    ============================ */
 
-/* Navbar */
-.navbar {
-  background-color: var(--bg-navbar);
-  border-bottom: 1px solid var(--border-primary);
-  backdrop-filter: blur(10px);
-}
 /* Desktop nav links */
 .nav-links a {
   color: var(--text-primary);
@@ -4217,7 +4311,6 @@ body {
     color: #ffffff !important;
   }
 }
-
 
 .nav-links a:hover {
   color: var(--primary-color);
