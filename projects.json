@@ -38,6 +38,26 @@
         "github": "https://github.com/your-github-username"
     }
 },
+{
+    "title": "Password Rotation Reminder Tool",
+    "description": "A cyber-themed security dashboard that helps users track password rotation schedules across multiple accounts. Features interval-based reminders, real-time status indicators, and persistent storage for managing security compliance in a sleek, neon-styled interface.",
+    "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Cybersecurity",
+        "UI/UX",
+        "Productivity",
+        "Dashboard"
+    ],
+    "links": {
+        "live": "./projects/password-rotation-tool/"
+    },
+    "author": {
+        "name": "Anvesha",
+        "github": "https://github.com/your-github-username"
+    }
+},
     {
         "title": "Memory Budgeting",
         "description": "An intermediate-level budgeting application that helps users track income and expenses with a smart, memory-driven approach. Features a horizontal dashboard layout, income/expense toggles, real-time balance updates, and behavioral spending insights presented through a polished, modern UI inspired by high-end control systems.",
