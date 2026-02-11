@@ -4638,3 +4638,42 @@ body,
     visibility: visible !important;
   }
 }
+/* =========================================
+   FIX: LIGHT MODE NAVBAR VISIBILITY
+   Issue #3074
+   ========================================= */
+
+body[data-theme="light"] .navbar {
+  background: #ffffff !important;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+body[data-theme="light"] .nav-logo {
+  color: #2563eb !important;
+}
+
+body[data-theme="light"] .nav-links a,
+body[data-theme="light"] .drop-btn {
+  color: #0f172a !important;
+  opacity: 1 !important;
+}
+
+body[data-theme="light"] .nav-links a:hover,
+body[data-theme="light"] .drop-btn:hover {
+  color: #2563eb !important;
+}
+
+body[data-theme="light"] .dropdown-menu {
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+}
+
+body[data-theme="light"] .dropdown-menu a {
+  color: #0f172a;
+}
+
+body[data-theme="light"] .dropdown-menu a:hover {
+  background: #2563eb;
+  color: #ffffff;
+}
