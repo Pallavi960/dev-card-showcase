@@ -19,6 +19,46 @@
         }
     },
     {
+        "title": "Treasure Hunt Route",
+        "description": "A grid-based puzzle game where players navigate through hidden traps to find treasure. Features level progression, score tracking, and interactive movement across the board. Designed with a dark, game-style interface to create an engaging treasure-hunting experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "UI/UX",
+            "Gamification",
+            "Puzzle"
+        ],
+        "links": {
+            "live": "./projects/treasure-hunt-route/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
+    },
+    {
+        "title": "Password Rotation Reminder Tool",
+        "description": "A cyber-themed security dashboard that helps users track password rotation schedules across multiple accounts. Features interval-based reminders, real-time status indicators, and persistent storage for managing security compliance in a sleek, neon-styled interface.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Cybersecurity",
+            "UI/UX",
+            "Productivity",
+            "Dashboard"
+        ],
+        "links": {
+            "live": "./projects/password-rotation-tool/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
+    },
+    {
         "title": "Memory Budgeting",
         "description": "An intermediate-level budgeting application that helps users track income and expenses with a smart, memory-driven approach. Features a horizontal dashboard layout, income/expense toggles, real-time balance updates, and behavioral spending insights presented through a polished, modern UI inspired by high-end control systems.",
         "tags": [
@@ -38,25 +78,25 @@
         }
     },
     {
-    "title": "Goal Decomposer",
-    "description": "An interactive goal decomposition tool that helps users break large goals into manageable subtasks. Features priority tagging, progress tracking, local storage auto-save, and a modern glassmorphism interface designed for focus and productivity.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "UI/UX",
-        "Productivity",
-        "Task Management"
-    ],
-    "links": {
-        "live": "./projects/goal-decomposition/"
+        "title": "Goal Decomposer",
+        "description": "An interactive goal decomposition tool that helps users break large goals into manageable subtasks. Features priority tagging, progress tracking, local storage auto-save, and a modern glassmorphism interface designed for focus and productivity.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX",
+            "Productivity",
+            "Task Management"
+        ],
+        "links": {
+            "live": "./projects/goal-decomposition/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
-      {
+    {
         "title": "404 Not Found Page",
         "description": "A visually engaging and interactive 404 Not Found page that creatively informs users about the missing content. Features a playful design, animated elements, and a clear call-to-action to guide users back to the homepage or other relevant sections of the website.",
         "tags": [
@@ -73,64 +113,64 @@
         }
     },
     {
-    "title": "Exam Stress Manager",
-    "description": "A calming, interactive exam stress management tool that helps students track stress levels, practice guided breathing, run focused study sessions, and receive positive affirmations. Features a soft gradient UI, real-time progress visualization, and local storage support.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "UI/UX",
-        "Wellness",
-        "Productivity"
-    ],
-    "links": {
-        "live": "./projects/exam-stress-magmt/"
+        "title": "Exam Stress Manager",
+        "description": "A calming, interactive exam stress management tool that helps students track stress levels, practice guided breathing, run focused study sessions, and receive positive affirmations. Features a soft gradient UI, real-time progress visualization, and local storage support.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX",
+            "Wellness",
+            "Productivity"
+        ],
+        "links": {
+            "live": "./projects/exam-stress-magmt/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
-    "title": "Puzzle Unlock Pro",
-    "description": "An interactive puzzle-based unlocking game featuring multiple logic and math challenges. Includes level progression, timer-based gameplay, scoring system, animated transitions, and a neon-themed modern UI designed for an engaging game experience.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Game",
-        "UI/UX",
-        "Logic",
-        "Interactive"
-    ],
-    "links": {
-        "live": "./projects/puzzle-unlock/"
+        "title": "Puzzle Unlock Pro",
+        "description": "An interactive puzzle-based unlocking game featuring multiple logic and math challenges. Includes level progression, timer-based gameplay, scoring system, animated transitions, and a neon-themed modern UI designed for an engaging game experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "UI/UX",
+            "Logic",
+            "Interactive"
+        ],
+        "links": {
+            "live": "./projects/puzzle-unlock/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
-{
-    "title": "Stress vs Performance Graph Tool",
-    "description": "An interactive visualization based on the Yerkes–Dodson Law that demonstrates how stress levels influence performance. Features a real-time animated curve, color-coded performance zones, auto-simulation mode, and a vibrant gradient UI for an engaging and insightful experience.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Visualization",
-        "UI/UX",
-        "Canvas",
-        "Productivity"
-    ],
-    "links": {
-        "live": "./projects/stress-vs-performance-graph/"
+    {
+        "title": "Stress vs Performance Graph Tool",
+        "description": "An interactive visualization based on the Yerkes–Dodson Law that demonstrates how stress levels influence performance. Features a real-time animated curve, color-coded performance zones, auto-simulation mode, and a vibrant gradient UI for an engaging and insightful experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Visualization",
+            "UI/UX",
+            "Canvas",
+            "Productivity"
+        ],
+        "links": {
+            "live": "./projects/stress-vs-performance-graph/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "Daily Fun Fact Challenge",
         "description": "A gamified daily fun fact application where users guess whether a fact is true or false across multiple difficulty levels. Features a point-based reward system, winner status progression, and a responsive, visually engaging interface for learning through play.",
@@ -187,45 +227,45 @@
         }
     },
     {
-    "title": "Pattern Master",
-    "description": "An advanced pattern prediction game featuring number, letter, and shape sequences. Includes dynamic difficulty, streak-based scoring, hints with penalties, level progression, timer challenges, and a sleek futuristic UI for an engaging cognitive training experience.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Game",
-        "Patterns",
-        "Logic",
-        "UI/UX",
-        "Interactive"
-    ],
-    "links": {
-        "live": "./projects/pattern-prediction/"
+        "title": "Pattern Master",
+        "description": "An advanced pattern prediction game featuring number, letter, and shape sequences. Includes dynamic difficulty, streak-based scoring, hints with penalties, level progression, timer challenges, and a sleek futuristic UI for an engaging cognitive training experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "Patterns",
+            "Logic",
+            "UI/UX",
+            "Interactive"
+        ],
+        "links": {
+            "live": "./projects/pattern-prediction/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
-{
-    "title": "Inventory Tetris Game",
-    "description": "An interactive grid-based puzzle game inspired by inventory management systems. Players drag, rotate, and place differently shaped blocks onto a dark-themed grid, clear lines for points, and manage space strategically. Features a polished cyber-style interface, smooth drag-and-drop mechanics, rotation controls, and real-time scoring.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Game",
-        "UI/UX",
-        "Drag-and-Drop"
-    ],
-    "links": {
-        "live": "./projects/inventory-game/"
+    {
+        "title": "Inventory Tetris Game",
+        "description": "An interactive grid-based puzzle game inspired by inventory management systems. Players drag, rotate, and place differently shaped blocks onto a dark-themed grid, clear lines for points, and manage space strategically. Features a polished cyber-style interface, smooth drag-and-drop mechanics, rotation controls, and real-time scoring.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "UI/UX",
+            "Drag-and-Drop"
+        ],
+        "links": {
+            "live": "./projects/inventory-game/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "Queue Management Simulator Game",
         "description": "A gamified queue management game where users add, serve, and remove people from a virtual queue. Features random events like VIP arrivals, unexpected departures, a points and level-up system, and a visually engaging neon-style interface with interactive animations for a fun arcade-like experience.",
@@ -244,26 +284,26 @@
             "github": "https://github.com/your-github-username"
         }
     },
-{
-    "title": "Risk vs Reward Strategy",
-    "description": "A fast-paced strategy game where players choose between safe, balanced, and risky moves to maximize their score. Features progressive rounds, high-score tracking, animated neon UI, and a dynamic risk system that tests decision-making skills under uncertainty.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Game",
-        "Strategy",
-        "UI/UX",
-        "Interactive"
-    ],
-    "links": {
-        "live": "./projects/risk-vs-reward/"
+    {
+        "title": "Risk vs Reward Strategy",
+        "description": "A fast-paced strategy game where players choose between safe, balanced, and risky moves to maximize their score. Features progressive rounds, high-score tracking, animated neon UI, and a dynamic risk system that tests decision-making skills under uncertainty.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "Strategy",
+            "UI/UX",
+            "Interactive"
+        ],
+        "links": {
+            "live": "./projects/risk-vs-reward/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "Code Formattor pro",
         "description": "A utility tool to format and minify HTML code with live preview. Features include beautifying HTML, minifying HTML, copying formatted code, downloading as a file, and a dark mode toggle for comfortable use.",
@@ -281,7 +321,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-      {
+    {
         "title": "Color psychology UI",
         "description": "A web application that explores color psychology by allowing users to select colors and see their associated psychological effects. Features a visually engaging interface with color palettes, mood descriptions, and interactive elements to enhance user experience.",
         "tags": [
@@ -298,6 +338,24 @@
             "github": "https://github.com/omkarhole"
         }
     },
+    {
+        "title": "Embers in the Dark",
+        "description": "A dark, narrative-driven incremental survival game inspired by A Dark Room. Players gather resources, stoke a fire to survive the cold, and gradually build a small community through progressive unlocks. Features atmospheric UI, persistent saves, and simple but engaging mechanics built with pure web technologies.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "Incremental"
+        ],
+        "links": {
+            "live": "./projects/dark-room-mordern/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    }
     {
         "title": "DiffCraft – Text Diff Checker",
         "description": "A modern text difference checker that compares two texts in real time and highlights added, removed, and modified lines. Includes similarity percentage, ignore case and whitespace options, dark mode, and a clean editor-style UI for an efficient comparison experience.",
@@ -316,7 +374,6 @@
             "github": "https://github.com/your-github-username"
         }
     },
-    
     {
         "title": "CSS color Name Finder",
         "description": "A web application that allows users to input a color code (hex, RGB, or HSL) and returns the closest CSS color name along with its code. Features a user-friendly interface, real-time color matching, and a comprehensive color database for accurate results.",
@@ -369,7 +426,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-      {
+    {
         "title": "Picket fence animation",
         "description": "An animated picket fence effect that creates an optical illusion of movement. Features include adjustable speed, customizable colors, and responsive design for various screen sizes.",
         "tags": [
@@ -481,7 +538,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Trials in Forms",
         "description": "A web application that demonstrates various form validation techniques and interactive form elements. Users can explore different input types, validation rules, and dynamic form behaviors.",
         "tags": [
@@ -498,7 +555,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-      {
+    {
         "title": "Stroop Effect Game",
         "description": "A cognitive game that challenges players to identify the color of the text rather than the word itself, testing their attention and reaction time. Features include a timer, score tracking, mistake limits, and a responsive design for an engaging user experience.",
         "tags": [
@@ -586,7 +643,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-      {
+    {
         "title": "Vertical Clock",
         "description": "A vertical clock display with customizable 12-hour and 24-hour formats, featuring a card-themed design option and smooth animations for a visually appealing timekeeping experience.",
         "tags": [
@@ -624,7 +681,6 @@
             "github": "https://github.com/PriyanshuSingh00-hub"
         }
     },
-    
     {
         "title": "Maze Generator",
         "description": "A web-based maze generator that creates random mazes using a recursive backtracking algorithm. Users can customize the maze size and complexity, and the generated maze is displayed visually with a clean and responsive design.",
@@ -642,7 +698,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-{
+    {
         "title": "Code Syntax Spotter",
         "description": "An interactive developer-focused game that challenges users to identify syntax errors by comparing correct and buggy code snippets. Features a diff-style visual interface, click-to-spot gameplay, instant feedback, and a responsive, beginner-friendly UI designed to sharpen code reading and debugging skills.",
         "tags": [
@@ -661,7 +717,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-     {
+    {
         "title": "API Request Builder",
         "description": "A utility tool that allows users to construct and test API requests with a user-friendly interface. Features include input fields for URL, method selection, headers, body content, and a response viewer to display results in real time.",
         "tags": [
@@ -754,7 +810,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-     {
+    {
         "title": "3D Periodic Table",
         "description": "An interactive 3D periodic table that allows users to explore elements in a visually engaging way. Features include rotating the table, clicking on elements for detailed information, and a modern design with smooth animations.",
         "tags": [
@@ -771,7 +827,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Gradient Playground",
         "description": "A tool to create and customize CSS gradients through the magic of CSS variables. Features a live preview, adjustable angles, and hue settings for a visually engaging experience.",
         "tags": [
@@ -805,7 +861,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-      {
+    {
         "title": "Liquid glass animation",
         "description": "A visually engaging liquid glass animation effect using CSS and JavaScript. Features smooth transitions, interactive elements, and customizable settings for a modern UI experience.",
         "tags": [
@@ -822,7 +878,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Colors Contrast Checker",
         "description": "A utility tool to check the contrast between different colors and ensure WCAG compliance. Features a user-friendly interface, real-time contrast calculation, and visual feedback for accessibility.",
         "tags": [
@@ -839,7 +895,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-       {
+    {
         "title": "CSS Perspective playground",
         "description": "A web application that allows users to experiment with CSS perspective properties. Users can adjust perspective values and see the effects on 3D elements in real time.",
         "tags": [
@@ -856,7 +912,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-      {
+    {
         "title": "2D Transform Playground",
         "description": "A web application that allows users to experiment with CSS 2D transform properties. Users can adjust values for translate, rotate, scale, and skew to see the effects on elements in real time.",
         "tags": [
@@ -873,7 +929,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-       {
+    {
         "title": "Interactive Painting",
         "description": "A web application that allows users to create and experiment with digital paintings. Users can use various brushes, colors, and effects to create unique artwork in real time.",
         "tags": [
@@ -927,7 +983,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-      {
+    {
         "title": "Hero design page",
         "description": "An immersive, browser-based hero section featuring a dynamic 3D prism rendered with WebGL. The design showcases raymarching techniques, refraction effects, and interactive mouse controls, creating a mesmerizing spectrum of light with a nebula background.",
         "tags": [
@@ -944,7 +1000,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "3D Text Reflection Playground",
         "description": "A web application that allows users to experiment with 3D text reflections. Users can adjust text properties and see the effects on a reflective water surface in real time.",
         "tags": [
@@ -961,7 +1017,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-        {
+    {
         "title": "FlexBox Playground",
         "description": "A utility tool to experiment with CSS Flexbox properties in real-time. Features a user-friendly interface, live preview, and interactive controls for learning and testing Flexbox layouts.",
         "tags": [
@@ -995,7 +1051,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-         {
+    {
         "title": "Patricle in Tornado Animation",
         "description": "An animated particle tornado effect using HTML, CSS, and JavaScript. Features smooth particle movement, customizable colors, and responsive design for an engaging visual experience.",
         "tags": [
@@ -1006,6 +1062,23 @@
         ],
         "links": {
             "live": "./projects/Particles-Tornado/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
+        "title": "Loading animations",
+        "description": "A collection of visually appealing loading animations created using HTML, CSS, and JavaScript. Features smooth transitions, customizable colors, and responsive design for an engaging visual experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/Loading-Animations/index.html"
         },
         "author": {
             "name": "Omkar",
@@ -1052,6 +1125,23 @@
         "author": {
             "name": "Gupta",
             "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
+        "title": "HTML components library",
+        "description": "A collection of reusable HTML components with modern design and interactive features. Includes buttons, cards, modals, and more, all built with HTML, CSS, and JavaScript for easy integration into any project.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/HTML-Components/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
         }
     },
     {
@@ -1111,6 +1201,22 @@
         }
     },
     {
+        "title": "Custom Selector",
+        "description": "A web-based custom selector component that allows users to interact with various options in a visually appealing and intuitive manner. Features include dynamic styling, responsive design, and smooth animations.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/Custom-selector/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
         "title": "Bio Sphere Simulator",
         "description": "A web-based bio sphere simulator that allows users to create and manage a self-sustaining ecosystem. Users can add plants, animals, and environmental factors to observe interactions and balance within the bio sphere.",
         "tags": [
@@ -1126,7 +1232,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-      {
+    {
         "title": "Painting app",
         "description": "A web-based painting application that allows users to create digital artwork using various brushes, colors, and tools. Features include a canvas area, color palette, brush size adjustment, and the ability to save and load paintings.",
         "tags": [
@@ -1136,6 +1242,22 @@
         ],
         "links": {
             "live": "./projects/paint-project/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
+        "title": "card animation",
+        "description": "A web-based card animation project that showcases various card animations and interactions. Users can see different animation effects applied to cards in a visually appealing manner.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/card-animation/index.html"
         },
         "author": {
             "name": "Omkar",
@@ -1196,6 +1318,22 @@
         }
     },
     {
+        "title": "color palettes generator",
+        "description": "A web-based color palette generator that allows users to create and explore various color schemes. Features include a palette display, mood-based color selection, and smooth animations for an engaging user experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/color-palettes/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
         "title": "CSS Hover Transform",
         "description": "A web application that showcases various CSS hover transform effects. Users can hover over different elements to see the transform animations in action.",
         "tags": [
@@ -1225,6 +1363,22 @@
         "author": {
             "name": "Anvesha",
             "github": "https://github.com/your-github-username"
+        }
+    },
+    {
+        "title": "Time Travelling Gallery",
+        "description": "A web application that allows users to explore different historical periods through an interactive gallery. Users can navigate through various time periods and view artifacts, images, and information from each era.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/Time-Travelling/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
         }
     },
     {
@@ -2822,25 +2976,25 @@
         }
     },
     {
-    "title": "Suspicious Login Pattern Detector",
-    "description": "A cybersecurity-themed tool that analyzes login behavior to detect suspicious patterns based on location, device, and time. Features a real-time risk scoring engine, anomaly alerts, login history tracking, and a neon cyber UI for an engaging security dashboard experience.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Cybersecurity",
-        "UI/UX",
-        "Security",
-        "Visualization"
-    ],
-    "links": {
-        "live": "./projects/suspicious-login-pattern-detector/"
+        "title": "Suspicious Login Pattern Detector",
+        "description": "A cybersecurity-themed tool that analyzes login behavior to detect suspicious patterns based on location, device, and time. Features a real-time risk scoring engine, anomaly alerts, login history tracking, and a neon cyber UI for an engaging security dashboard experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Cybersecurity",
+            "UI/UX",
+            "Security",
+            "Visualization"
+        ],
+        "links": {
+            "live": "./projects/suspicious-login-pattern-detector/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "ClickRipple Animation",
         "description": "Interactive tool that creates beautiful ripple animations on click with customizable patterns, colors, and sound effects.",
@@ -3494,24 +3648,24 @@
         }
     },
     {
-    "title": "Tile Capture Strategy Game",
-    "description": "An advanced turn-based grid strategy game where players compete against an AI to capture tiles and maximize their score. Features combo scoring, multiplier and trap tiles, smart AI difficulty modes, animated captures, and a clean, modern interface designed for engaging tactical gameplay.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Game",
-        "AI Logic",
-        "Strategy"
-    ],
-    "links": {
-        "live": "./projects/capture-strategy/"
+        "title": "Tile Capture Strategy Game",
+        "description": "An advanced turn-based grid strategy game where players compete against an AI to capture tiles and maximize their score. Features combo scoring, multiplier and trap tiles, smart AI difficulty modes, animated captures, and a clean, modern interface designed for engaging tactical gameplay.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "AI Logic",
+            "Strategy"
+        ],
+        "links": {
+            "live": "./projects/capture-strategy/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "Periodic Table Quiz",
         "description": "An interactive quiz game that tests users' knowledge of the periodic table. Features multiple-choice questions, score tracking, and a timer for added challenge.",
@@ -3641,24 +3795,24 @@
         }
     },
     {
-    "title": "Confidence vs Accuracy Game",
-    "description": "An interactive quiz game that compares a user’s answer accuracy with their self-rated confidence. Players answer questions, set their confidence level, and earn or lose points based on how well their confidence matches their accuracy. Features a modern card-based UI, animated feedback, and high-score tracking.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "UI/UX",
-        "Game",
-        "EdTech"
-    ],
-    "links": {
-        "live": "./projects/confidence-vs-accuracy-game/"
+        "title": "Confidence vs Accuracy Game",
+        "description": "An interactive quiz game that compares a user’s answer accuracy with their self-rated confidence. Players answer questions, set their confidence level, and earn or lose points based on how well their confidence matches their accuracy. Features a modern card-based UI, animated feedback, and high-score tracking.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX",
+            "Game",
+            "EdTech"
+        ],
+        "links": {
+            "live": "./projects/confidence-vs-accuracy-game/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "Tower Of Hanoi",
         "description": "A classic Tower of Hanoi puzzle game where players move disks between pegs following specific rules to achieve the goal state. Features visual representation and move counter.",
@@ -3836,25 +3990,25 @@
         }
     },
     {
-    "title": "Time Leakage Detector",
-    "description": "A radar-style interactive tool that tracks daily activities and detects time leaks. Features animated scanning UI, visual activity radar chart, and automatic leak alerts for excessive time usage.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Productivity",
-        "UI/UX",
-        "Visualization",
-        "Interactive"
-    ],
-    "links": {
-        "live": "./projects/time-leakage-detector/"
+        "title": "Time Leakage Detector",
+        "description": "A radar-style interactive tool that tracks daily activities and detects time leaks. Features animated scanning UI, visual activity radar chart, and automatic leak alerts for excessive time usage.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Productivity",
+            "UI/UX",
+            "Visualization",
+            "Interactive"
+        ],
+        "links": {
+            "live": "./projects/time-leakage-detector/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "Arcide Game",
         "description": "An exciting arcade-style game where players navigate a character through various levels filled with obstacles and enemies. Features smooth animations, power-ups, and score tracking for an engaging gaming experience.",
@@ -3871,7 +4025,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-     {
+    {
         "title": "Brick Breaker Game",
         "description": "A classic brick breaker game where players control a paddle to bounce a ball and break bricks. Features multiple levels, power-ups, and score tracking for an engaging gaming experience.",
         "tags": [
@@ -3887,7 +4041,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-      {
+    {
         "title": "Castle Breach Simulator",
         "description": "An engaging web-based game where players control a character to navigate through obstacles and collect iridium crystals. Features smooth animations, scoring system, and increasing difficulty levels for an exciting gaming experience.",
         "tags": [
@@ -3903,7 +4057,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-      {
+    {
         "title": "Desert Rally Mini",
         "description": "An exciting desert rally racing game featuring realistic driving mechanics, multiple laps, and a night mode toggle. Players can use arrow keys or WASD to drive, space to brake, and shift to boost. Complete laps by hitting checkpoints!",
         "tags": [
@@ -3920,8 +4074,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-    
-      {
+    {
         "title": "Gravity Skater",
         "description": "A thrilling skateboarding game set in a low-gravity environment. Players can perform tricks, navigate obstacles",
         "tags": [
@@ -3937,7 +4090,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-       {
+    {
         "title": "orbit cannon",
         "description": "A space-themed shooting game where players control a cannon to shoot down incoming asteroids while managing limited ammunition and avoiding collisions.",
         "tags": [
@@ -3953,7 +4106,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-           {
+    {
         "title": "space junk cleanup",
         "description": "A space-themed game where players control a spaceship to collect and clean up space debris while avoiding obstacles and managing fuel levels.",
         "tags": [
@@ -4037,24 +4190,24 @@
         }
     },
     {
-    "title": "Cognitive Load Balancer",
-    "description": "An interactive cognitive monitoring tool that simulates mental workload using task complexity, time pressure, and multitasking inputs. Features a cyber-themed UI, dynamic color transitions based on stress levels, and real-time feedback to help users maintain optimal cognitive performance.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "UI/UX",
-        "Cognitive Science",
-        "Simulation"
-    ],
-    "links": {
-        "live": "./projects/cognitive-load-balancer/"
+        "title": "Cognitive Load Balancer",
+        "description": "An interactive cognitive monitoring tool that simulates mental workload using task complexity, time pressure, and multitasking inputs. Features a cyber-themed UI, dynamic color transitions based on stress levels, and real-time feedback to help users maintain optimal cognitive performance.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX",
+            "Cognitive Science",
+            "Simulation"
+        ],
+        "links": {
+            "live": "./projects/cognitive-load-balancer/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "File Size Converter",
         "description": "A real-time utility that converts file sizes between Bytes, KB, MB, and GB instantly. Helps users quickly calculate and understand storage sizes with a clean, interactive interface.",
@@ -4105,7 +4258,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-       {
+    {
         "title": "Valentine Card",
         "description": "A cute and interactive Valentine card with moving buttons and a heartfelt message. Features smooth animations and a responsive design to express your feelings in a fun way.",
         "tags": [
@@ -4121,7 +4274,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "3D gallery",
         "description": "A visually stunning 3D gallery that allows users to explore and interact with a collection of images or artworks in a three-dimensional space. Features smooth navigation, zooming, and dynamic lighting effects for an immersive viewing experience.",
         "tags": [
@@ -4185,7 +4338,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Digital Creatures playground",
         "description": "A web application that allows users to create and interact with digital creatures in a virtual environment. Users can customize their creatures' appearance and behaviors, and observe how they interact with each other and their surroundings.",
         "tags": [
@@ -4233,7 +4386,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "WebKit",
         "description": "A simple web browser interface prototype with basic navigation features.",
         "tags": [
@@ -4313,7 +4466,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-      {
+    {
         "title": "Copy color name",
         "description": "A simple web application that allows users to copy the name of a color by clicking on it. The app displays a palette of colors, and when a user clicks on a color, its name is copied to the clipboard for easy use in design projects.",
         "tags": [
@@ -4345,7 +4498,7 @@
             "github": "https://github.com/neeru24"
         }
     },
-       {
+    {
         "title": "Neuromorphic UI",
         "description": "A sleek and modern user interface design featuring neuromorphic elements with soft shadows and highlights. Perfect for portfolios, dashboards, or any web application requiring a clean aesthetic.",
         "tags": [
@@ -4445,7 +4598,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-        {
+    {
         "title": "3D QR Generator",
         "description": "A web application that generates a 3D QR code based on user input. The QR code can be customized with different colors and styles, and users can interact with it in a 3D space.",
         "tags": [
@@ -4493,7 +4646,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-      {
+    {
         "title": "CSS color ",
         "description": "A web app that visually demonstrates various CSS colors with interactive sliders to adjust hue, saturation, and brightness for educational purposes.",
         "tags": [
@@ -4527,7 +4680,7 @@
             "github": "https://github.com/neeru24"
         }
     },
-       {
+    {
         "title": "Unmasked Game",
         "description": "A thrilling web-based game where players navigate through levels while avoiding detection by patrolling guards. Features stealth mechanics, dynamic AI behavior, and immersive sound effects for an engaging gaming experience.",
         "tags": [
@@ -4576,24 +4729,24 @@
         }
     },
     {
-    "title": "Cyber Account Unlock Flow",
-    "description": "An advanced step-based account unlock request system with a futuristic cyber-themed interface. Features email verification simulation, unlock reason selection, review stage, ticket generation, and animated neon UI elements for a polished, high-tech experience.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Cyber UI",
-        "Authentication",
-        "Form Flow"
-    ],
-    "links": {
-        "live": "./projects/account-unlock/"
+        "title": "Cyber Account Unlock Flow",
+        "description": "An advanced step-based account unlock request system with a futuristic cyber-themed interface. Features email verification simulation, unlock reason selection, review stage, ticket generation, and animated neon UI elements for a polished, high-tech experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Cyber UI",
+            "Authentication",
+            "Form Flow"
+        ],
+        "links": {
+            "live": "./projects/account-unlock/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "RGB color ",
         "description": "A color picker tool that allows users to generate and customize RGB colors using sliders. Users can see the color preview and copy the RGB code for use in design projects.",
@@ -4706,10 +4859,10 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Animatable svg filter",
-            "description": "A responsive settings page simulator with theme toggle, language selection, and notification preferences. Built with HTML, CSS, and JavaScript for a seamless user experience.",
-            "tags": [
+        "description": "A responsive settings page simulator with theme toggle, language selection, and notification preferences. Built with HTML, CSS, and JavaScript for a seamless user experience.",
+        "tags": [
             "HTML",
             "CSS",
             "JavaScript"
@@ -5739,24 +5892,24 @@
         }
     },
     {
-    "title": "Idea Ranking Ladder",
-    "description": "An intermediate-level decision tool that helps users compare and rank multiple ideas through a ladder-style system. Users make pairwise choices across rounds, with dynamic score updates, automatic reordering, and a final prioritized list. The interface features a sleek cyber-inspired dashboard with progress indicators and interactive controls.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "UI/UX",
-        "Decision Making",
-        "Gamification"
-    ],
-    "links": {
-        "live": "./projects/idea-ranking-ladder/"
+        "title": "Idea Ranking Ladder",
+        "description": "An intermediate-level decision tool that helps users compare and rank multiple ideas through a ladder-style system. Users make pairwise choices across rounds, with dynamic score updates, automatic reordering, and a final prioritized list. The interface features a sleek cyber-inspired dashboard with progress indicators and interactive controls.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX",
+            "Decision Making",
+            "Gamification"
+        ],
+        "links": {
+            "live": "./projects/idea-ranking-ladder/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "infinite scroll image gallery",
         "description": "A web application that displays an infinite scroll image gallery using Unsplash API to fetch high-quality images as the user scrolls down the page.",
@@ -6616,25 +6769,25 @@
         }
     },
     {
-    "title": "False Memory Game",
-    "description": "An interactive cognitive game that challenges users to identify whether a word has appeared before. Features a cyber-themed dark interface, combo-based scoring, timed rounds, and dynamic feedback. Designed with a gamified layout, animated progress bar, and neon dashboard elements for an engaging memory training experience.",
-    "tags": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Game",
-        "UI/UX",
-        "Cognitive Training",
-        "Gamification"
-    ],
-    "links": {
-        "live": "./projects/false-memory-game/"
+        "title": "False Memory Game",
+        "description": "An interactive cognitive game that challenges users to identify whether a word has appeared before. Features a cyber-themed dark interface, combo-based scoring, timed rounds, and dynamic feedback. Designed with a gamified layout, animated progress bar, and neon dashboard elements for an engaging memory training experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "UI/UX",
+            "Cognitive Training",
+            "Gamification"
+        ],
+        "links": {
+            "live": "./projects/false-memory-game/"
+        },
+        "author": {
+            "name": "Anvesha",
+            "github": "https://github.com/your-github-username"
+        }
     },
-    "author": {
-        "name": "Anvesha",
-        "github": "https://github.com/your-github-username"
-    }
-},
     {
         "title": "Unit Convertor",
         "description": "A versatile unit converter that allows users to convert between various units of length, weight, temperature, and volume with a user-friendly interface.",
