@@ -1365,6 +1365,22 @@
             "github": "https://github.com/your-github-username"
         }
     },
+     {
+        "title": "Tron Minesweeper",
+        "description": "A visually striking Tron-themed Minesweeper game that combines classic gameplay with a futuristic aesthetic. Features neon grid design, glowing mines, and smooth animations for an immersive gaming experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/Tron-Minesweeper/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Time Travelling Gallery",
         "description": "A web application that allows users to explore different historical periods through an interactive gallery. Users can navigate through various time periods and view artifacts, images, and information from each era.",
