@@ -683,6 +683,23 @@
             "github": "https://github.com/omkarhole"
         }
     },
+     {
+        "title": "Cosmic Clock",
+        "description": "A visually stunning cosmic clock that displays time in a unique and engaging way. Features include multiple rings representing different time units, interactive events, and a responsive design for an immersive experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Utility Tool"
+        ],
+        "links": {
+            "live": "./projects/Cosmic-Clock/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Breathing Circle",
         "description": "A minimalist breathing exercise tool designed to promote calm and focus. Features a smooth inhale–hold–exhale animation cycle, soft wellness-inspired visuals, and a fully responsive layout for a distraction-free experience across devices.",
