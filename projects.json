@@ -382,6 +382,24 @@
             "github": "https://github.com/omkarhole"
         }
     },
+      {
+        "title": "Retro Pixel studio",
+        "description": "A retro pixel art editor and animation tool that allows users to create, edit, and animate pixel art. Features a nostalgic 8-bit aesthetic, customizable palettes, and a user-friendly interface built with HTML, CSS, and JavaScript.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "Incremental"
+        ],
+        "links": {
+            "live": "./projects/Retro-Pixel-Studio/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Code Formattor pro",
         "description": "A utility tool to format and minify HTML code with live preview. Features include beautifying HTML, minifying HTML, copying formatted code, downloading as a file, and a dark mode toggle for comfortable use.",
