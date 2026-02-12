@@ -398,6 +398,24 @@
             "github": "https://github.com/omkarhole"
         }
     },
+         {
+        "title": "Alien Abduction Game",
+        "description": "A thrilling alien abduction game where players control a UFO to abduct cows, pigs, and chickens while avoiding enemy attacks. Features dynamic gameplay, power-ups, and a visually engaging interface built with HTML, CSS, and JavaScript.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game",
+            "Action"
+        ],
+        "links": {
+            "live": "./projects/alien-abduction/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Color psychology UI",
         "description": "A web application that explores color psychology by allowing users to select colors and see their associated psychological effects. Features a visually engaging interface with color palettes, mood descriptions, and interactive elements to enhance user experience.",
