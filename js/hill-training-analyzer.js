@@ -17,55 +17,22 @@ class HillTrainingAnalyzer {
             this.saveSession();
         });
 
-        // Effort slider
-        document.getElementById('effortLevel').addEventListener('input', (e) => {
-            this.updateEffortDisplay(e.target.value);
-        });
-
         // History filters
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                this.setFilter(e.target.dataset.filter);
-            });
-        });
-
-        // Clear data
-        document.getElementById('clearData').addEventListener('click', () => {
-            if (confirm('Are you sure you want to clear all training data?')) {
-                this.clearAllData();
-            }
-        });
-    }
-
-    updateEffortDisplay(value) {
-        const effortValue = document.getElementById('effortValue');
-        const effortText = document.getElementById('effortText');
-
-        effortValue.textContent = value;
-
-        const effortLevels = {
-            1: 'Very Easy',
-            2: 'Easy',
-            3: 'Moderate',
-            4: 'Hard',
-            5: 'Very Hard',
-            6: 'Maximum Effort'
-        };
-
-        effortText.textContent = effortLevels[value] || 'Unknown';
+        document.getElementById('viewWeek').addEventListener('click', () => this.setFilter('week'));
+        document.getElementById('viewMonth').addEventListener('click', () => this.setFilter('month'));
+        document.getElementById('viewAll').addEventListener('click', () => this.setFilter('all'));
     }
 
     saveSession() {
-        const formData = new FormData(document.getElementById('hillForm'));
         const session = {
             id: Date.now(),
-            date: new Date().toISOString(),
-            incline: parseFloat(formData.get('incline')),
-            distance: parseFloat(formData.get('distance')),
-            duration: parseFloat(formData.get('duration')),
-            pace: this.calculatePace(formData.get('distance'), formData.get('duration')),
-            effortLevel: parseInt(formData.get('effortLevel')),
-            notes: formData.get('notes') || ''
+            date: document.getElementById('sessionDate').value,
+            incline: parseFloat(document.getElementById('inclinePercent').value),
+            distance: parseFloat(document.getElementById('distance').value),
+            duration: this.parseDuration(document.getElementById('duration').value),
+            pace: parseFloat(document.getElementById('pace').value),
+            effortLevel: parseInt(document.getElementById('effort').value),
+            notes: document.getElementById('notes').value || ''
         };
 
         this.sessions.unshift(session);
@@ -76,16 +43,18 @@ class HillTrainingAnalyzer {
 
         // Reset form
         document.getElementById('hillForm').reset();
-        this.updateEffortDisplay(3); // Reset to moderate
+        document.getElementById('sessionDate').value = new Date().toISOString().split('T')[0];
+        document.getElementById('effort').value = 7;
+        document.getElementById('effortValue').textContent = '7';
+        document.getElementById('effortText').textContent = 'Very Hard';
 
         // Show success message
         this.showNotification('Training session saved successfully!');
     }
 
-    calculatePace(distance, duration) {
-        // Convert to minutes per km/mile
-        const paceMinutes = duration / distance;
-        return paceMinutes;
+    parseDuration(timeString) {
+        const [hours, minutes] = timeString.split(':').map(Number);
+        return hours * 60 + minutes; // Convert to minutes
     }
 
     formatPace(pace) {
@@ -108,22 +77,30 @@ class HillTrainingAnalyzer {
         if (sessions.length === 0) return;
 
         // Calculate metrics
-        const totalSessions = sessions.length;
-        const avgIncline = sessions.reduce((sum, s) => sum + s.incline, 0) / totalSessions;
-        const avgPace = sessions.reduce((sum, s) => sum + s.pace, 0) / totalSessions;
         const bestPace = Math.min(...sessions.map(s => s.pace));
+        const avgPace = sessions.reduce((sum, s) => sum + s.pace, 0) / sessions.length;
         const totalDistance = sessions.reduce((sum, s) => sum + s.distance, 0);
 
+        // Calculate improvement (compare recent vs older sessions)
+        let improvement = '--';
+        if (sessions.length >= 6) {
+            const recent = sessions.slice(0, 3);
+            const older = sessions.slice(3, 6);
+            const recentAvg = recent.reduce((sum, s) => sum + s.pace, 0) / recent.length;
+            const olderAvg = older.reduce((sum, s) => sum + s.pace, 0) / older.length;
+            const improvementPercent = ((olderAvg - recentAvg) / olderAvg) * 100;
+            improvement = `${improvementPercent > 0 ? '+' : ''}${improvementPercent.toFixed(1)}%`;
+        }
+
         // Update metrics display
-        document.getElementById('totalSessions').textContent = totalSessions;
-        document.getElementById('avgIncline').textContent = `${avgIncline.toFixed(1)}%`;
-        document.getElementById('avgPace').textContent = this.formatPace(avgPace);
         document.getElementById('bestPace').textContent = this.formatPace(bestPace);
-        document.getElementById('totalDistance').textContent = `${totalDistance.toFixed(1)} km`;
+        document.getElementById('avgPace').textContent = this.formatPace(avgPace);
+        document.getElementById('totalDistance').textContent = `${totalDistance.toFixed(1)}km`;
+        document.getElementById('improvement').textContent = improvement;
     }
 
     renderChart() {
-        const ctx = document.getElementById('performanceChart').getContext('2d');
+        const ctx = document.getElementById('paceChart').getContext('2d');
 
         // Prepare data for last 10 sessions
         const recentSessions = this.sessions.slice(0, 10).reverse();
@@ -142,22 +119,59 @@ class HillTrainingAnalyzer {
                 datasets: [{
                     label: 'Pace (min/km)',
                     data: paces,
-                    borderColor: '#4a90e2',
-                    backgroundColor: 'rgba(74, 144, 226, 0.1)',
+                    borderColor: '#38a169',
+                    backgroundColor: 'rgba(56, 161, 105, 0.1)',
                     yAxisID: 'y',
-                    tension: 0.4
+                    tension: 0.4,
+                    pointBackgroundColor: '#38a169',
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2,
+                    pointRadius: 5
                 }, {
                     label: 'Incline (%)',
                     data: inclines,
-                    borderColor: '#e94b3c',
-                    backgroundColor: 'rgba(233, 75, 60, 0.1)',
+                    borderColor: '#e53e3e',
+                    backgroundColor: 'rgba(229, 62, 62, 0.1)',
                     yAxisID: 'y1',
-                    tension: 0.4
+                    tension: 0.4,
+                    pointBackgroundColor: '#e53e3e',
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 2,
+                    pointRadius: 5
                 }]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Hill Training Performance',
+                        font: {
+                            size: 16,
+                            weight: 'bold'
+                        }
+                    },
+                    legend: {
+                        display: true,
+                        position: 'top'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: function(context) {
+                                return `Session: ${context[0].label}`;
+                            },
+                            label: function(context) {
+                                const datasetLabel = context.dataset.label;
+                                const value = context.parsed.y;
+                                if (datasetLabel.includes('Pace')) {
+                                    return `${datasetLabel}: ${analyzer.formatPace(value)}`;
+                                }
+                                return `${datasetLabel}: ${value}%`;
+                            }
+                        }
+                    }
+                },
                 scales: {
                     y: {
                         type: 'linear',
@@ -166,6 +180,11 @@ class HillTrainingAnalyzer {
                         title: {
                             display: true,
                             text: 'Pace (min/km)'
+                        },
+                        ticks: {
+                            callback: function(value) {
+                                return analyzer.formatPace(value);
+                            }
                         }
                     },
                     y1: {
@@ -181,24 +200,22 @@ class HillTrainingAnalyzer {
                         },
                     }
                 },
-                plugins: {
-                    legend: {
-                        display: true,
-                        position: 'top'
-                    }
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
                 }
             }
         });
     }
 
     renderHistory() {
-        const historyList = document.getElementById('historyList');
+        const historyList = document.getElementById('trainingHistory');
         const filteredSessions = this.getFilteredSessions();
 
         historyList.innerHTML = '';
 
         if (filteredSessions.length === 0) {
-            historyList.innerHTML = '<p class="no-data">No training sessions found.</p>';
+            historyList.innerHTML = '<p style="text-align: center; color: var(--text-secondary);">No training sessions found for this period.</p>';
             return;
         }
 
@@ -206,6 +223,9 @@ class HillTrainingAnalyzer {
             const item = this.createHistoryItem(session);
             historyList.appendChild(item);
         });
+
+        // Re-initialize Lucide icons
+        lucide.createIcons();
     }
 
     getFilteredSessions() {
@@ -221,9 +241,6 @@ class HillTrainingAnalyzer {
             case 'month':
                 filterDate.setMonth(now.getMonth() - 1);
                 break;
-            case '3months':
-                filterDate.setMonth(now.getMonth() - 3);
-                break;
         }
 
         return this.sessions.filter(session =>
@@ -235,6 +252,12 @@ class HillTrainingAnalyzer {
         const item = document.createElement('div');
         item.className = 'history-item';
 
+        const effortLevels = {
+            1: 'Very Easy', 2: 'Easy', 3: 'Moderate', 4: 'Somewhat Hard',
+            5: 'Hard', 6: 'Very Hard', 7: 'Very Hard', 8: 'Very Hard',
+            9: 'Extremely Hard', 10: 'Maximum Effort'
+        };
+
         item.innerHTML = `
             <div class="history-item-content">
                 <div class="history-item-header">
@@ -244,13 +267,13 @@ class HillTrainingAnalyzer {
                 <div class="history-details">
                     <span class="history-incline">${session.incline}% incline</span> •
                     ${session.distance} km •
-                    ${session.duration} min •
-                    Effort: ${session.effortLevel}/6
+                    ${Math.floor(session.duration / 60)}:${(session.duration % 60).toString().padStart(2, '0')} •
+                    Effort: ${effortLevels[session.effortLevel] || 'Unknown'}
                 </div>
                 ${session.notes ? `<div class="history-notes">${session.notes}</div>` : ''}
             </div>
             <div class="history-actions">
-                <button class="btn-small btn-secondary" onclick="analyzer.deleteSession(${session.id})">
+                <button class="btn-small btn-danger" onclick="analyzer.deleteSession(${session.id})">
                     <i data-lucide="trash-2"></i>
                 </button>
             </div>
@@ -273,7 +296,7 @@ class HillTrainingAnalyzer {
         this.currentFilter = filter;
 
         // Update button states
-        document.querySelectorAll('.filter-btn').forEach(btn => {
+        document.querySelectorAll('.history-controls button').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.filter === filter);
         });
 
@@ -287,69 +310,72 @@ class HillTrainingAnalyzer {
     }
 
     renderPerformanceAnalysis() {
-        const analysisGrid = document.getElementById('analysisGrid');
+        const inclinePerformance = document.getElementById('inclinePerformance');
+        const progressTrend = document.getElementById('progressTrend');
+        const trainingFocus = document.getElementById('trainingFocus');
+
         const sessions = this.sessions;
 
         if (sessions.length < 2) {
-            analysisGrid.innerHTML = '<p class="no-data">Need at least 2 sessions for analysis.</p>';
+            inclinePerformance.innerHTML = '<p>Log more sessions to see incline performance analysis.</p>';
+            progressTrend.innerHTML = '<p>Track your progress over multiple sessions.</p>';
+            trainingFocus.innerHTML = '<p>Get personalized training recommendations.</p>';
             return;
         }
 
-        // Calculate improvements
-        const recentSessions = sessions.slice(0, 5);
-        const olderSessions = sessions.slice(5, 10);
+        // Incline performance analysis
+        const inclineGroups = {};
+        sessions.forEach(session => {
+            const inclineRange = Math.floor(session.incline / 2) * 2; // Group by 2% ranges
+            if (!inclineGroups[inclineRange]) {
+                inclineGroups[inclineRange] = [];
+            }
+            inclineGroups[inclineRange].push(session);
+        });
 
-        let paceImprovement = 0;
-        if (olderSessions.length > 0) {
-            const recentAvgPace = recentSessions.reduce((sum, s) => sum + s.pace, 0) / recentSessions.length;
-            const olderAvgPace = olderSessions.reduce((sum, s) => sum + s.pace, 0) / olderSessions.length;
-            paceImprovement = ((olderAvgPace - recentAvgPace) / olderAvgPace) * 100;
+        const bestIncline = Object.keys(inclineGroups).reduce((best, range) => {
+            const avgPace = inclineGroups[range].reduce((sum, s) => sum + s.pace, 0) / inclineGroups[range].length;
+            const bestAvg = inclineGroups[best] ? inclineGroups[best].reduce((sum, s) => sum + s.pace, 0) / inclineGroups[best].length : Infinity;
+            return avgPace < bestAvg ? range : best;
+        }, Object.keys(inclineGroups)[0]);
+
+        inclinePerformance.innerHTML = `<p>You perform best on ${bestIncline}-${parseInt(bestIncline) + 2}% inclines. Consider incorporating more sessions in this range.</p>`;
+
+        // Progress trend
+        if (sessions.length >= 4) {
+            const recent = sessions.slice(0, Math.min(4, sessions.length));
+            const older = sessions.slice(Math.min(4, sessions.length), Math.min(8, sessions.length));
+
+            if (older.length > 0) {
+                const recentAvg = recent.reduce((sum, s) => sum + s.pace, 0) / recent.length;
+                const olderAvg = older.reduce((sum, s) => sum + s.pace, 0) / older.length;
+                const change = ((olderAvg - recentAvg) / olderAvg) * 100;
+
+                const direction = change > 1 ? 'improving' : change < -1 ? 'declining' : 'stable';
+                progressTrend.innerHTML = `<p>Your hill running performance is <strong>${direction}</strong> (${change > 0 ? '+' : ''}${change.toFixed(1)}% pace improvement).</p>`;
+            } else {
+                progressTrend.innerHTML = `<p>Continue training to establish a performance trend.</p>`;
+            }
+        } else {
+            progressTrend.innerHTML = `<p>Log ${4 - sessions.length} more sessions to see progress trends.</p>`;
         }
 
+        // Training focus
         const avgIncline = sessions.reduce((sum, s) => sum + s.incline, 0) / sessions.length;
-        const consistency = this.calculateConsistency(sessions);
+        const avgEffort = sessions.reduce((sum, s) => sum + s.effortLevel, 0) / sessions.length;
 
-        analysisGrid.innerHTML = `
-            <div class="analysis-card">
-                <h3>Performance Trend</h3>
-                <div class="analysis-content">
-                    ${paceImprovement > 0 ?
-                        `Your pace has improved by ${paceImprovement.toFixed(1)}% in recent sessions.` :
-                        'Keep training consistently to see pace improvements.'}
-                </div>
-            </div>
-            <div class="analysis-card">
-                <h3>Average Incline</h3>
-                <div class="analysis-content">
-                    You typically train at ${avgIncline.toFixed(1)}% incline.
-                    ${avgIncline > 8 ? 'Great job tackling steep hills!' : 'Consider increasing incline for better hill training benefits.'}
-                </div>
-            </div>
-            <div class="analysis-card">
-                <h3>Consistency Score</h3>
-                <div class="analysis-content">
-                    Your training consistency is ${consistency.toFixed(0)}%.
-                    ${consistency > 80 ? 'Excellent consistency!' : 'Try to maintain regular training sessions.'}
-                </div>
-            </div>
-        `;
-    }
-
-    calculateConsistency(sessions) {
-        if (sessions.length < 2) return 100;
-
-        // Calculate average days between sessions
-        const dates = sessions.map(s => new Date(s.date)).sort((a, b) => a - b);
-        const intervals = [];
-
-        for (let i = 1; i < dates.length; i++) {
-            intervals.push((dates[i] - dates[i-1]) / (1000 * 60 * 60 * 24));
+        let recommendation = '';
+        if (avgIncline < 5) {
+            recommendation = 'Try increasing your training incline to build more hill-specific strength.';
+        } else if (avgEffort > 7) {
+            recommendation = 'Consider incorporating easier recovery runs between intense hill sessions.';
+        } else if (sessions.length < 3) {
+            recommendation = 'Keep logging sessions to get personalized training recommendations.';
+        } else {
+            recommendation = 'Your training mix looks balanced. Continue with your current approach.';
         }
 
-        const avgInterval = intervals.reduce((sum, i) => sum + i, 0) / intervals.length;
-        const consistency = Math.max(0, 100 - (avgInterval - 7) * 10); // Penalize gaps > 7 days
-
-        return Math.min(100, consistency);
+        trainingFocus.innerHTML = `<p>${recommendation}</p>`;
     }
 
     renderTrainingTips() {
@@ -375,6 +401,16 @@ class HillTrainingAnalyzer {
                 icon: 'zap',
                 title: 'Form Focus',
                 content: 'Keep your posture upright, take shorter steps, and pump your arms for better power transfer.'
+            },
+            {
+                icon: 'mountain',
+                title: 'Hill Selection',
+                content: 'Choose hills that match your training goals. Shorter steep hills build power, longer gradual hills build endurance.'
+            },
+            {
+                icon: 'repeat',
+                title: 'Repeat Workouts',
+                content: 'Repeat the same hill routes to accurately measure improvement over time.'
             }
         ];
 
@@ -401,10 +437,11 @@ class HillTrainingAnalyzer {
         const avgPace = sessions.reduce((sum, s) => sum + s.pace, 0) / sessions.length;
 
         const standards = [
-            { level: 'Beginner', range: '8:00-12:00', description: 'Building basic hill strength' },
-            { level: 'Intermediate', range: '6:00-8:00', description: 'Developing hill endurance' },
-            { level: 'Advanced', range: '4:30-6:00', description: 'Strong hill performance' },
-            { level: 'Elite', range: '<4:30', description: 'Exceptional hill running ability' }
+            { level: 'Beginner', range: '10:00-15:00', description: 'Building basic hill strength and technique' },
+            { level: 'Novice', range: '8:00-10:00', description: 'Developing hill endurance and comfort' },
+            { level: 'Intermediate', range: '6:00-8:00', description: 'Good hill running performance' },
+            { level: 'Advanced', range: '4:30-6:00', description: 'Strong hill running ability' },
+            { level: 'Elite', range: '<4:30', description: 'Exceptional hill running performance' }
         ];
 
         standardsGrid.innerHTML = standards.map(standard => {
@@ -456,5 +493,24 @@ class HillTrainingAnalyzer {
 // Initialize the analyzer when the page loads
 let analyzer;
 document.addEventListener('DOMContentLoaded', () => {
+    // Set default date
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('sessionDate').value = today;
+
+    // Initialize effort display
+    const effortSlider = document.getElementById('effort');
+    if (effortSlider) {
+        effortSlider.addEventListener('input', (e) => {
+            const value = e.target.value;
+            document.getElementById('effortValue').textContent = value;
+            const effortLevels = {
+                1: 'Very Easy', 2: 'Easy', 3: 'Moderate', 4: 'Somewhat Hard',
+                5: 'Hard', 6: 'Very Hard', 7: 'Very Hard', 8: 'Very Hard',
+                9: 'Extremely Hard', 10: 'Maximum Effort'
+            };
+            document.getElementById('effortText').textContent = effortLevels[value] || 'Unknown';
+        });
+    }
+
     analyzer = new HillTrainingAnalyzer();
 });
