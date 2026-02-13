@@ -10100,5 +10100,27 @@
             "name": "Gupta",
             "github": "https://github.com/Gupta-02"
         }
+    },
+    {
+        "title": "Panic Episode Logger",
+        "description": "Log panic attack frequency and severity with detailed tracking of triggers, symptoms, and coping strategies. Features trend analysis, pattern recognition, and effectiveness ratings for anxiety management. Includes severity scale (1-10), duration tracking, and insights into common triggers and most effective coping techniques.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Mental Health",
+            "Anxiety",
+            "Data Visualization",
+            "LocalStorage",
+            "Chart.js"
+        ],
+        "links": {
+            "live": "./projects/panic-episode-logger/"
+        },
+        "author": {
+            "name": "Gupta",
+            "github": "https://github.com/Gupta-02"
+        }
     }
 ]
