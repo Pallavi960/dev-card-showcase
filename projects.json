@@ -531,6 +531,24 @@
         }
     },
     {
+        "title": "Car Dodge Pro",
+        "description": "An interactive 2D car dodging arcade game built using pure HTML, CSS, and JavaScript. Players control a car and must avoid incoming enemy vehicles while the game speed gradually increases. Features smooth keyboard controls, real-time collision detection using bounding rectangles, animated road effects, dynamic difficulty scaling, and score tracking for an engaging arcade-style experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game Development",
+            "Arcade Game"
+        ],
+        "links": {
+            "live": "./projects/Car-Dodging-Game/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    },
+    {
         "title": "Embers in the Dark",
         "description": "A dark, narrative-driven incremental survival game inspired by A Dark Room. Players gather resources, stoke a fire to survive the cold, and gradually build a small community through progressive unlocks. Features atmospheric UI, persistent saves, and simple but engaging mechanics built with pure web technologies.",
         "tags": [
@@ -10220,7 +10238,7 @@
             "name": "Gupta",
             "github": "https://github.com/Gupta-02"
         }
-//ive
+        //ive
     },
     {
         "title": "Liver Function Tracker",
