@@ -1,5 +1,25 @@
 [
     {
+        "title": "Productivity Peak Analyzer",
+        "description": "Identify your peak productivity hours by tracking task completion timestamps and visualizing performance patterns with an hourly heatmap. Optimize your work schedule based on when you're most efficient.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Productivity",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage"
+        ],
+        "links": {
+            "live": "./productivity-peak-analyzer/productivity-peak-analyzer.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
         "title": "Pollution Exposure Log",
         "description": "Track your daily exposure to polluted environments and monitor your cumulative health risk score. Log AQI levels, duration of exposure, and activities to get personalized health recommendations and risk assessments.",
         "tags": [
