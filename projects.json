@@ -10182,5 +10182,26 @@
             "name": "Gupta",
             "github": "https://github.com/Gupta-02"
         }
+    },
+    {
+        "title": "Shoulder Mobility Tracker",
+        "description": "A comprehensive shoulder mobility assessment tool for desk workers and athletes. Track shoulder flexion, abduction, and rotation ranges with pain level monitoring. Features progress visualization, personalized exercise recommendations, ergonomic tips, and milestone tracking to improve shoulder health and prevent injuries.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Fitness",
+            "Mobility",
+            "LocalStorage",
+            "UI/UX"
+        ],
+        "links": {
+            "live": "./shoulder-mobility-tracker.html"
+        },
+        "author": {
+            "name": "Gupta",
+            "github": "https://github.com/Gupta-02"
+        }
     }
 ]
