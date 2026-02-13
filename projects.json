@@ -21,6 +21,27 @@
         }
     },
     {
+        "title": "Digital Overstimulation Tracker",
+        "description": "Track overstimulation symptoms from digital overload and correlate them with screen time. Log symptoms like headache, eye strain, irritability, and fatigue to identify digital fatigue patterns and encourage mindful usage.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Digital Wellness",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage"
+        ],
+        "links": {
+            "live": "./digital-overstimulation-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
         "title": "Productivity Peak Analyzer",
         "description": "Identify your peak productivity hours by tracking task completion timestamps and visualizing performance patterns with an hourly heatmap. Optimize your work schedule based on when you're most efficient.",
         "tags": [
