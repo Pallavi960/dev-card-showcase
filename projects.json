@@ -62,6 +62,26 @@
         }
     },
     {
+        "title": "Confidence Level Tracker",
+        "description": "Track daily self-confidence ratings on a 1-10 scale with trend visualization. Monitor confidence fluctuations across different contexts to support personal development and self-awareness.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Personal Development",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage"
+        ],
+        "links": {
+            "live": "./confidence-level-tracker/confidence-level-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
         "title": "Digital Overstimulation Tracker",
         "description": "Track overstimulation symptoms from digital overload and correlate them with screen time. Log symptoms like headache, eye strain, irritability, and fatigue to identify digital fatigue patterns and encourage mindful usage.",
         "tags": [
