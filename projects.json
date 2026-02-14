@@ -10910,8 +10910,8 @@
         }
     },
     {
-        "title": "Running Form Self-Assessment UI",
-        "description": "Monitor your running mechanics consistency with form quality ratings, distance tracking, and injury correlation insights. Log perceived form issues and get personalized recommendations for injury prevention and performance improvement.",
+        "title": "Detox Symptom Tracker",
+        "description": "Monitor symptoms during dietary or lifestyle detox programs to evaluate impact and progress safely. Track headache, fatigue, nausea, and other symptoms with trend analysis and personalized insights.",
         "tags": [
             "HTML",
             "CSS",
@@ -10920,12 +10920,34 @@
             "Data Visualization",
             "LocalStorage",
             "Wellness",
-            "Fitness",
-            "Running",
-            "Injury Prevention"
+            "Health Monitoring",
+            "Detox Support"
         ],
         "links": {
-            "live": "./running-form-self-assessment/running-form-self-assessment.html"
+            "live": "./detox-symptom-tracker/detox-symptom-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
+        "title": "Overcommitment Risk Analyzer",
+        "description": "Evaluate your workload versus capacity to prevent burnout and improve time management. Track task load, assess stress levels, and get personalized recommendations for maintaining work-life balance.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Chart.js",
+            "Data Visualization",
+            "LocalStorage",
+            "Wellness",
+            "Productivity",
+            "Time Management",
+            "Burnout Prevention"
+        ],
+        "links": {
+            "live": "./overcommitment-risk-analyzer/overcommitment-risk-analyzer.html"
         },
         "author": {
             "name": "Gupta-02",
