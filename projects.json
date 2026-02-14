@@ -10910,8 +10910,8 @@
         }
     },
     {
-        "title": "Running Form Self-Assessment UI",
-        "description": "Monitor your running mechanics consistency with form quality ratings, distance tracking, and injury correlation insights. Log perceived form issues and get personalized recommendations for injury prevention and performance improvement.",
+        "title": "Detox Symptom Tracker",
+        "description": "Monitor symptoms during dietary or lifestyle detox programs to evaluate impact and progress safely. Track headache, fatigue, nausea, and other symptoms with trend analysis and personalized insights.",
         "tags": [
             "HTML",
             "CSS",
@@ -10920,12 +10920,11 @@
             "Data Visualization",
             "LocalStorage",
             "Wellness",
-            "Fitness",
-            "Running",
-            "Injury Prevention"
+            "Health Monitoring",
+            "Detox Support"
         ],
         "links": {
-            "live": "./running-form-self-assessment/running-form-self-assessment.html"
+            "live": "./detox-symptom-tracker/detox-symptom-tracker.html"
         },
         "author": {
             "name": "Gupta-02",
