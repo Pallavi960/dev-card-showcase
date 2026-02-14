@@ -7409,7 +7409,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-    {
+       {
         "title": "Weather Sculprate Game",
         "description": "An engaging weather-themed game where players sculpt clouds to match given weather conditions. Features multiple levels, scoring, and interactive gameplay.",
         "tags": [
@@ -7419,6 +7419,22 @@
         ],
         "links": {
             "live": "./projects/WeatherSculpture/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
+    {
+        "title": "Sonification v3",
+        "description": "An interactive audio-visual sonification app that translates image data into sound and visual patterns.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/Sonification-V3/index.html"
         },
         "author": {
             "name": "Omkar",
@@ -10778,6 +10794,29 @@
         },
         "author": {
             "name": "Gupta",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
+        "title": "Joint Pain Pattern Analyzer",
+        "description": "Log joint pain episodes and visualize patterns correlated with weather, activity levels, and posture to identify triggers and improve management. Track pain severity, duration, and environmental factors for comprehensive joint health monitoring.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Medical",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage",
+            "Wellness",
+            "Pain Management"
+        ],
+        "links": {
+            "live": "./joint-pain-pattern-analyzer/joint-pain-pattern-analyzer.html"
+        },
+        "author": {
+            "name": "Gupta-02",
             "github": "https://github.com/Gupta-02"
         }
     }
