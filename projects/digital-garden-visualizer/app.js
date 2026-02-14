@@ -10,7 +10,7 @@ const plantTypes = {
     cactus: { icon: '🌵', color: '#ffd600', growth: 1 },
     herb:   { icon: '🌿', color: '#90caf9', growth: 1 }
 };
-
+//
 function drawGarden() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     plants.forEach(plant => {
