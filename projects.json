@@ -11061,5 +11061,27 @@
             "name": "Gupta-02",
             "github": "https://github.com/Gupta-02"
         }
+    },
+    {
+        "title": "Pace Consistency Tracker",
+        "description": "Analyze running pace stability to evaluate pacing strategy efficiency and enhance race preparation. Log split times, calculate pace variance, and get personalized insights to improve running performance and consistency.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Fitness",
+            "Running",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage",
+            "Performance Analysis"
+        ],
+        "links": {
+            "live": "./pace-consistency-tracker/pace-consistency-tracker.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
     }
 ]
