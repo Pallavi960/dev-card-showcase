@@ -11131,5 +11131,28 @@
             "name": "Gupta-02",
             "github": "https://github.com/Gupta-02"
         }
+    },
+    {
+        "title": "Postural Symmetry Analyzer",
+        "description": "Track body symmetry measurements over time with shoulder and hip alignment metrics. Get personalized corrective suggestions to address muscle imbalances and improve posture for gym and rehabilitation users.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Health",
+            "Fitness",
+            "Data Visualization",
+            "Chart.js",
+            "LocalStorage",
+            "Posture",
+            "Symmetry Tracking"
+        ],
+        "links": {
+            "live": "./postural-symmetry-analyzer/postural-symmetry-analyzer.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
     }
 ]
