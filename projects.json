@@ -10994,6 +10994,29 @@
         }
     },
     {
+        "title": "Motivation Cycle Analyzer",
+        "description": "Track daily motivation levels to identify cyclical patterns and improve goal consistency over time. Monitor motivation, energy, and focus fluctuations with trend analysis and personalized insights for better productivity.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Chart.js",
+            "Data Visualization",
+            "LocalStorage",
+            "Psychology",
+            "Productivity",
+            "Goal Tracking",
+            "Wellness"
+        ],
+        "links": {
+            "live": "./motivation-cycle-analyzer/motivation-cycle-analyzer.html"
+        },
+        "author": {
+            "name": "Gupta-02",
+            "github": "https://github.com/Gupta-02"
+        }
+    },
+    {
         "title": "Micronutrient Deficiency Risk Estimator",
         "description": "Estimate deficiency risk based on dietary patterns by logging foods and analyzing nutrient intake. Track vitamin and mineral levels with personalized deficiency probability scoring to encourage nutrient diversity and prevent malnutrition.",
         "tags": [
