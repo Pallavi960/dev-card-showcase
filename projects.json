@@ -804,6 +804,27 @@
         }
     },
     {
+        "title": "Space Strategy RTS – Galactic Command",
+        "description": "A fully structured Space Strategy RTS mini game built using separate HTML, CSS, and JavaScript files with over 500+ lines of modular code. Players manage planetary resource generation, deploy fleets with smooth movement animations, and make tactical expansion decisions against an AI-controlled opponent. Features dynamic map rendering, real-time strategic interactions, AI decision-making logic, scalable resource systems, and seamless game state management without page reload.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game Development",
+            "RTS",
+            "Strategy Game",
+            "AI Logic",
+            "Simulation"
+        ],
+        "links": {
+            "live": "./projects/Space-Strategy-RTS/index.html"
+        },
+        "author": {
+            "name": "Priyanshu",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    },
+    {
         "title": "3D Quantum Neural Network",
         "description": "A 3D visualization of a quantum neural network, showcasing the interactions and computations within a quantum system. Features interactive controls, real-time updates, and a visually engaging interface built with WebGL and JavaScript.",
         "tags": [
@@ -4180,7 +4201,7 @@
             "github": "https://github.com/CodeMaster"
         }
     },
-      {
+    {
         "title": "Code Editor",
         "description": "A professional code editor with multi-language support, customizable themes, real-time preview, and essential features like code download and clearing.",
         "tags": [
@@ -4782,7 +4803,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-     {
+    {
         "title": "Budget Planner",
         "description": "A user-friendly budget planning tool that helps users track income and expenses, set financial goals, and visualize spending patterns with charts and graphs.",
         "tags": [
@@ -7147,7 +7168,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Colors Avalanche",
         "description": "An interactive physics-based game where colorful blocks fall from the sky and must be caught before they hit the ground.",
         "tags": [
@@ -7304,7 +7325,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-       {
+    {
         "title": "Color Palette Generator \ud83c\udf3a",
         "description": "A fun interactive activity that generates and displays color palettes.",
         "tags": [
@@ -7454,7 +7475,7 @@
             "github": "https://github.com/pavanakarthik12"
         }
     },
-     {
+    {
         "title": "Liquid Gradient Page",
         "description": "An interactive liquid gradient background with touch effects and customizable color schemes.",
         "tags": [
@@ -7504,7 +7525,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Phantom Protocol",
         "description": "A professional code editor with multi-language support, customizable themes, real-time preview, and essential features like code download and clearing.",
         "tags": [
