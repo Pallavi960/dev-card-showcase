@@ -3867,6 +3867,22 @@
             "github": "https://github.com/omkarhole"
         }
     },
+       {
+        "title": "BB-8 project",
+        "description": "A web application that simulates a BB-8 droid with interactive movement and animations.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/BB-8/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Personality Generator",
         "description": "A web application that generates unique personality descriptions based on user input and predefined traits.",
