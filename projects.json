@@ -822,6 +822,27 @@
         }
     },
     {
+        "title": "Procedural Maze Escape",
+        "description": "A dynamically generated maze game where each session creates a unique layout using algorithm-based maze generation. Players must navigate through randomized maps under time pressure while avoiding AI-driven enemies and collecting strategic power-ups. Features fog-of-war rendering, intelligent pathfinding logic, enemy movement algorithms, timer-based gameplay, and seamless round resets without page reload for a smooth replayable experience.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game Development",
+            "Procedural Generation",
+            "Pathfinding",
+            "AI Logic",
+            "Algorithm Design"
+        ],
+        "links": {
+            "live": "./projects/procedural-maze-escape/index.html"
+        },
+        "author": {
+            "name": "Priyanshu",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    },
+    {
         "title": "Retro Pixel studio",
         "description": "A retro pixel art editor and animation tool that allows users to create, edit, and animate pixel art. Features a nostalgic 8-bit aesthetic, customizable palettes, and a user-friendly interface built with HTML, CSS, and JavaScript.",
         "tags": [
@@ -4180,7 +4201,7 @@
             "github": "https://github.com/CodeMaster"
         }
     },
-      {
+    {
         "title": "Code Editor",
         "description": "A professional code editor with multi-language support, customizable themes, real-time preview, and essential features like code download and clearing.",
         "tags": [
@@ -4782,7 +4803,7 @@
             "github": "https://github.com/your-github-username"
         }
     },
-     {
+    {
         "title": "Budget Planner",
         "description": "A user-friendly budget planning tool that helps users track income and expenses, set financial goals, and visualize spending patterns with charts and graphs.",
         "tags": [
@@ -7147,7 +7168,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Colors Avalanche",
         "description": "An interactive physics-based game where colorful blocks fall from the sky and must be caught before they hit the ground.",
         "tags": [
@@ -7304,7 +7325,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-       {
+    {
         "title": "Color Palette Generator \ud83c\udf3a",
         "description": "A fun interactive activity that generates and displays color palettes.",
         "tags": [
@@ -7454,7 +7475,7 @@
             "github": "https://github.com/pavanakarthik12"
         }
     },
-     {
+    {
         "title": "Liquid Gradient Page",
         "description": "An interactive liquid gradient background with touch effects and customizable color schemes.",
         "tags": [
@@ -7504,7 +7525,7 @@
             "github": "https://github.com/omkarhole"
         }
     },
-     {
+    {
         "title": "Phantom Protocol",
         "description": "A professional code editor with multi-language support, customizable themes, real-time preview, and essential features like code download and clearing.",
         "tags": [
