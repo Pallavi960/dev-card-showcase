@@ -4049,6 +4049,22 @@
             "github": "https://github.com/neeru24"
         }
     },
+       {
+        "title": " CSS Roulette Wheel",
+        "description": "A CSS-based roulette wheel animation with interactive spinning and result display.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "links": {
+            "live": "./projects/CSS-Roulette-Wheel/index.html"
+        },
+        "author": {
+            "name": "Omkar",
+            "github": "https://github.com/omkarhole"
+        }
+    },
     {
         "title": "Retro snake game",
         "description": "A classic snake game with retro graphics and smooth controls. Players navigate the snake to eat food, grow longer, and avoid collisions.",
