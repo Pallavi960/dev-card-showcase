@@ -804,6 +804,27 @@
         }
     },
     {
+        "title": "Space Strategy RTS – Galactic Command",
+        "description": "A fully structured Space Strategy RTS mini game built using separate HTML, CSS, and JavaScript files with over 500+ lines of modular code. Players manage planetary resource generation, deploy fleets with smooth movement animations, and make tactical expansion decisions against an AI-controlled opponent. Features dynamic map rendering, real-time strategic interactions, AI decision-making logic, scalable resource systems, and seamless game state management without page reload.",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Game Development",
+            "RTS",
+            "Strategy Game",
+            "AI Logic",
+            "Simulation"
+        ],
+        "links": {
+            "live": "./projects/Space-Strategy-RTS/index.html"
+        },
+        "author": {
+            "name": "Priyanshu",
+            "github": "https://github.com/PriyanshuSingh00-hub"
+        }
+    },
+    {
         "title": "3D Quantum Neural Network",
         "description": "A 3D visualization of a quantum neural network, showcasing the interactions and computations within a quantum system. Features interactive controls, real-time updates, and a visually engaging interface built with WebGL and JavaScript.",
         "tags": [
@@ -4228,7 +4249,7 @@
             "github": "https://github.com/CodeMaster"
         }
     },
-      {
+    {
         "title": "Code Editor",
         "description": "A professional code editor with multi-language support, customizable themes, real-time preview, and essential features like code download and clearing.",
         "tags": [
